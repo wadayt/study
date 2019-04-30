@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Tue, 16 Apr 2019 19:29:45 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 17:57:03 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>20190430</title>
+      <link>https://wadayt.github.io/study/post/20190430/</link>
+      <pubDate>Tue, 30 Apr 2019 17:57:03 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/20190430/</guid>
+      <description>じょじょに回復してきた いやはや、新しいPCを買ってみたりとかいろいろやっていたら結構元気になってきました。よかった。
+今日もIFTTTでロケーションをトリガーにしてGoogle sheetsに書き込んでそれをトリガーにGoogle Sheetsに書き込みとかそんなよくわからんことをやって過ごした。
+そういうのを記録するためのページだろうが！とも思ったけれどまあいいや。
+環境とかいろいろ変わりました 環境がUbuntuからWindowsに変わったのが一番大きな違いだ。vscodeでgitbashを動かせれば今のところはあんまり困ってない。
+Windowsもパッケージ管理したいなと思ったのだけれど、あんまりいい感じに動かすことができなかった。
+まあ都度都度アップグレードすればいいかなあ。正直使うアプリケーションそんなに多くないしね。
+最悪google chromeとvscode動けばいいやって感じ。あ、あとはgitbashか。
+powershellもせっかくだから慣れていきたいと思っているのだけど、補完がめちゃくちゃ遅い。ごきぶりホイホイにひっかかった気分になる。
+マシンパワー2倍ぐらいになったはずなのに補完が遅いなんてどうなってるのかしら。これだからWindowsは！という気分にもなるが、実業務でこれからWindows使っていかなければならなくなったので慣れなければ。
+Powershellを使用した作業を俺が担当するか？はわからない。正直どうでもいい。
+あと、地味にリポジトリ全削除からの再プッシュというあんまり意味が分からないこともやった。バージョン管理の意味とは…。
+マスターブランチとgh-pagesブランチの両方を作成してたのだけれど（一番最初に参照したページの通りに作ってしまったのだ）今回統一した。
+明日からはいつも通りに頑張ろう それにしても公開しているものだから続くだろうという根拠のない理由で始めたけれど、精神的にやられるとあっさり更新しなくなってしまったな。
+でも、こうして戻ってきているということはそれなりに続けていく意思があるということなのだろうね。たぶん。</description>
+    </item>
     
     <item>
       <title>2019 04 16</title>
