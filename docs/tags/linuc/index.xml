@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linuc on 学習記録</title>
-    <link>https://wadayt.github.io/studyrecord/tags/linuc/</link>
+    <link>https://wadayt.github.io/study/tags/linuc/</link>
     <description>Recent content in Linuc on 学習記録</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
     <lastBuildDate>Thu, 14 Mar 2019 21:02:47 +0900</lastBuildDate>
     
-	<atom:link href="https://wadayt.github.io/studyrecord/tags/linuc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wadayt.github.io/study/tags/linuc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2019 03 14</title>
-      <link>https://wadayt.github.io/studyrecord/post/2019-03-14/</link>
+      <link>https://wadayt.github.io/study/post/2019-03-14/</link>
       <pubDate>Thu, 14 Mar 2019 21:02:47 +0900</pubDate>
       
-      <guid>https://wadayt.github.io/studyrecord/post/2019-03-14/</guid>
+      <guid>https://wadayt.github.io/study/post/2019-03-14/</guid>
       <description>学習内容  Linuc学習6H   ひたすらにPing-tをやっていた やたらに疲れた。覚えておきたいものはankiにも入力した。でも入力しただけで満足してやらないかもしれない。覚える過程で入力するという作業が必要だっただけなのかも。
 あんまり学習に気が乗っていなかったsystemdやディスククォータの設定についてはlinucではそこまで深いところやらないみたいでちょっと勉強しただけで大体理解できた。でもパッケージマネージャ系は本当に苦痛でしか無い。特にレッドハット系はとてもつらい。あと、この記録ってvimで書いているくせにvimの基本的なコマンドについて答えられなかったりもしている。ちょっと悲しい。
 それにしても、労働するよりも勉強している方が集中力が必要なせいかとても疲れた。あとping-tのインターフェースがあんまりよくないから疲れる…。ラジオボタンで選択するのは疲れる。テンキーで選択させてくれるだけでも結構楽になると思うのだが。途中からタブレットに切り替えたけれど、ラジオボタンの小ささが変わるわけじゃないからな。
@@ -27,10 +27,10 @@
     
     <item>
       <title>2019 03 13</title>
-      <link>https://wadayt.github.io/studyrecord/post/2019-03-13/</link>
+      <link>https://wadayt.github.io/study/post/2019-03-13/</link>
       <pubDate>Wed, 13 Mar 2019 12:13:30 +0900</pubDate>
       
-      <guid>https://wadayt.github.io/studyrecord/post/2019-03-13/</guid>
+      <guid>https://wadayt.github.io/study/post/2019-03-13/</guid>
       <description>学習内容  hugoを使用しての静的ページの作成 2H Linuc取得に向けての学習 5H  Linuc イージス 2H ping-t 3H   学習の記録を公開していくことにした。 hugoを使用して静的ページを作成し、githubpagesで公開というなんともモダーンな感じだ。 デザインを選ぶのにとてつもなく時間がかかった。基本的には自分のためのものだからデザインなんてどうでも良いはずなのだけど。 でも公開を予定している以上は良いものを選びたかった。
 作成には以下のサイトを参考にした。1年以上前の記事だけれど基本的にはコピペするだけでどんどんできた。
 GitHub Pagesで静的サイトを簡単に作る
