@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>学習記録</title>
+  <meta property="og:title" content="学習記録" />
+  <meta name="twitter:title" content="学習記録" />
+  <meta name="author" content="Yuta Wada"/>
+  <meta property="og:site_name" content="学習記録" />
+  <meta property="og:url" content="https://wadayt.github.io/studyrecord/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.55.4" />
+  <link href="https://wadayt.github.io/studyrecord/index.xml" rel="alternate" type="application/rss+xml" title="学習記録" />
+  <link href="https://wadayt.github.io/studyrecord/index.xml" rel="feed" type="application/rss+xml" title="学習記録" />
+
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/custom.css" media="all" />
+
+  <script src="https://wadayt.github.io/studyrecord/js/script.js"></script>
+  <script src="https://wadayt.github.io/studyrecord/js/custom.js"></script>
+  <script defer src="https://wadayt.github.io/studyrecord/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://wadayt.github.io/studyrecord/">学習記録</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="https://wadayt.github.io/studyrecord/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://wadayt.github.io/studyrecord/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://wadayt.github.io/studyrecord/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <section class="list home-list">
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-04-06/" class="article-titles">
+          <h2 class="article-title">2019 04 06</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>April 6, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          学習内容 ping-t最強問題集 Lpic202 6.5H
+ ネットワーククライアントの設定  DHCP 0.5H PAM 0.5H LDAPクライアント 1.5H  ドメインネームサーバ  基本設定 0.5H ゾーン作成と保守 0.2H 保護 0.2H  ファイル共有  samba 2.5H NFS 0.5H   DHCP 作りはなんとなくわかる。IPv6については知らん。単語の間をハイフンでつなぐ比較的命名規則がわかりやすいので楽だ。
+PAM そもそもPAMって何なの？って感じだったけれど認証のためのモジュールなんだね。Pluggable Authentication Modulesの略。
+認証サービスってイコールLDAPだと思ってたけれど、PAMからLDAPを呼び出す形みたい。へーって感じ。
+てっきりLDAPが窓口になってそこからサーバに振り分けているのかと思っていたよ。
+短いけれど覚えること結構多い、でも比較的単純かなあ。
+LDAPクライアント ADとかでも使われているLDAPについてはかなり興味ある。これからWindowsサーバーやることになるわけだし…（じゃあ何でLpic勉強してんの？さあ…)。
+LDAPサーバ しんどい、とにかくしんどいけれどちょっとだけAD触ったことがあったからなんとなくわかった。
+けれどやっぱりしんどいです…。あと、ネットワークはなんとなくわからあ！って思ってやり進めていたけれど、思いもかけずこのセクションがいちばん問題数が多かったのね。
+割と自信がついたかもしれない。こんなに覚えること多いのか！って思っていたけれど、ここが一番多かったのね。
+まあほかのも同じくらいの分量みたいに見えるけど…。でも思ったよりもわかるなあってのが今思っている素直な気持ち。
+DNS基本設定 知らなかったところはいっぱいあるけど別にもう暗記するだけっぽいな、というかLpic202ってひょっとして暗記するだけで合格できるんじゃねえかなあ…。
+サーバの挙動からしてわからんって人は辛いかもしれないけど現状理解はできている感じ。
+ゾーン作成と保守 昔ちょっとだけ触ったことがあるので特にわからないってところはなかったかな。
+単純にどこがわからないかわかってないだけ？そうかも…。
+保護 chrootは知らないんだよね。コンテナ仮想化の話をするときに出てくるし、なんとなく概念として理解はしているのだけれど。
+samba なんでLinuxなのにsambaがメインなのだ？
+いきなりNTドメインの話とかが出てきて脱力する。そんなもん存在するのかよお。無いとは言い切れないのがwindowsで動いているシステムの恐ろしいところである。
+デジタルサイネージでwindows2000の表示を見たことがあるんだよな。それがドメイン参加しているかはわからんが。
+それにしてもここ覚えさせられるものがやたらに多いぞ。しんどい…。sambaとapacheの物量は多いらしい、とてもつらい。
+あまりにつらすぎて途中で投げてしまった。これは大変だ…。
+Windows固有のどうでも良い機能を実現させるためにすごいいろんなことやってるんだなあ…。
+nfs これはだいぶわかったぞ。
+sambaで受けたダメージがだいぶ回復した。samba辛い。
+とにかく暗記物が多い 気持ちが落ち込むくらいには多い。Lpic201の時はAnkiのカード155枚だったのだけれど、今回は4セクションの段階で270になった。まじかよ…。
+しかもこれ、覚えるべきものを全て入れられたわけじゃないんだ。途中で投げたやつがあるので。もうまじでしんどいです。
+とはいえ、全てのセクションで実現したいことが明確だし、何でこうなってるのか？とかそういうの考えなくて済むのは助かる。
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-04-06/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-04-05/" class="article-titles">
+          <h2 class="article-title">2019 04 05</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>April 5, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習記録">学習記録</h1>
+
+<hr />
+
+<p>ping-tコマ門 2H
+ping-t模試 1H</p>
+
+<h1 id="結構コマ門は自信になる">結構コマ門は自信になる</h1>
+
+<hr />
+
+<p>ping-tにはコマ門というコマンドを入力するタイプの問題集がある。今まではめんどくさがってやってなかった。Lpic1のときも。</p>
+
+<p>なんかどうも実務でやっていないから自信が出ないなあという思いはやはり実際にコマンドを打っていなかったというところが大きかったようだ。</p>
+
+<p>実際システム系のコマンドって仮想環境があるとはいえ、なかなか打ちにくいと思っていたんだ。</p>
+
+<p>コマ門は一回通しでやっただけだけれど、なかなか自信がついた。</p>
+
+<p>でも仕様はひどいもの。学習履歴は残らないし複数入力の場合アルファベット順とかコマンドの並びもアルファベット順とかにしないと認識しない。</p>
+
+<p>本当に有料コンテンツなのかを疑いたくなるぐらいにはひどい仕様である。</p>
+
+<p>今日は試験当日である、これで自信がついたとか言って落ちてしまったら目もあてられない。</p>
+
+<h1 id="201合格">201合格</h1>
+
+<hr />
+
+<p>案ずるより産むが易しというか…。どこを間違えたのかわからないくらいにはできた。</p>
+
+<p>理解できていなかった問題は多分なかったと思う。20分かからずに終わった。</p>
+
+<p>合格体験記に惑わされ過ぎなのかもしれない。そもそもエンジニアとしてのキャリアがない人たちが書いているんじゃないかと思う。</p>
+
+<p>結局ping-tと問題集を理解できていれば大丈夫ということみたいだ。そこを信じきれてないんだろうな。おれって、だから不安だったんだ。</p>
+
+<p>問題集に書いてある内容を理解できれば合格する。それだけでいいや。</p>
+
+<p>不安になるのは問題集に書いてあることを理解できなかったときにしよう。</p>
+
+<p>総学習時間42時間か。結構かけてるじゃないか。202はもっとかけないとダメかも。</p>
+
+<p>でもここまで一応全て700点オーバーだったわけだし今回はもっと低くても良いのではないでしょうか…。もうぎりぎり合格ぐらいでいいよお。</p>
+
+<h1 id="202を始める">202を始める</h1>
+
+<hr />
+
+<p>おれに残されている時間は少ない。このまま勢いでどんどんやろう…。</p>
+
+<p>とりあえずはネットワークの知識はそこそこあるのでシステムのセキュリティ分野から読み始める。</p>
+
+<p>iptablesで覚えることめっちゃあるな！これしんどいかもな。遊んでる場合じゃなかったかも。</p>
+
+<p>ネットワークの知識なんて言ってもぼんやりしたものだからけっこう辛い。</p>
+
+<p>お腹が痛くなってもうダメなので終了。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-04-05/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-04-04/" class="article-titles">
+          <h2 class="article-title">2019 04 04</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>April 4, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<ul>
+<li>Ping-t最強問題集 Lpic201 6H</li>
+<li>スピードマスター間違えた箇所だけ 1H</li>
+</ul>
+
+<h1 id="地獄のping-t周回">地獄のping-t周回</h1>
+
+<hr />
+
+<p>めちゃくちゃ疲れた。それなのにあんまり手応えがない。何でだろう？模擬試験でも90%代後半出しているのに…。</p>
+
+<p>やはりあまり実務経験のない分野だってことが一番大きいのだと思う。</p>
+
+<p>後は微妙にスピードマスターとping-tの記載内容に食い違いがあるんだよね。そこが一番嫌だ。調べれば良いんだけれど元気が無いんだよなあ。</p>
+
+<p>ポモドーロで25分間で120問くらいのスピードでやっていたからとてつもなく疲れた。あとこれ終わっても202やらされるだろうからすごい気持ちが落ち込んでいる。</p>
+
+<p>202の方が難関であると聞いているので201に集中する気力が削がれている。</p>
+
+<p>もう気力がないんでおしまい。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-04-04/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-04-03/" class="article-titles">
+          <h2 class="article-title">2019 04 03</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>April 3, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Ping-t最強問題集 Lpic201 3H</p>
+
+<ul>
+<li>高度なストレージデバイスの管理</li>
+<li>ネットワーク構成</li>
+<li>システムの保守</li>
+</ul>
+
+<p>スピードマスター問題集 3H</p>
+
+<ul>
+<li>2章から章末問題まで。</li>
+</ul>
+
+<h1 id="やるだけやる">やるだけやる</h1>
+
+<hr />
+
+<p>結局自宅で自習しろということになったので今日は自宅学習。</p>
+
+<p>一週間ぐらい学習しているはずなのだが、あまり手応えがない。ものすごい前のめりでやっているわけではないからかな。金曜日に試験予定だけれど…。</p>
+
+<p>なんだか集中できなかったので外にスピードマスター問題集をやりに行ったら良い感じにできた。それでもやっと三時間程度。やばいで。このままだと普通に落ちそう。</p>
+
+<p>と思ったけれど気のせいだった。普通にping-tの模擬試験9割超える。この状態なら正直合格すると思う。</p>
+
+<p>あとはポモドーロタイマの1ポモ分でここまでやるぞーっ！って目標をきちんと立てるとかなり集中できるみたい。</p>
+
+<p>学習中も割と雑念が浮かびやすいタイプだからな。</p>
+
+<p>と言うかポモドーロテクニックって本来的にはこういう風に使うのが正道何じゃないのか？という気がしてきた。まあ人によりけりでしょう。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-04-03/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-04-02/" class="article-titles">
+          <h2 class="article-title">2019 04 02</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>April 2, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Ping-t最強問題集 Lpic201 3H</p>
+
+<h1 id="帰宅してからはやはり何もする気に慣れない">帰宅してからはやはり何もする気に慣れない</h1>
+
+<hr />
+
+<p>やっぱり直帰するよりはどこかで学習したほうが良いと思う。なぜなら他のことが気になって仕方がないから。</p>
+
+<p>Lpic 201の試験を金曜日に予約した。多分に木曜日でも行けると思ったけれど、来週常駐するので金曜日余らせても仕方ないので。</p>
+
+<p>今日は楽日にする。昨日も実質楽日じゃないか？と思ったけれどまあいいや。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-04-02/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-04-01/" class="article-titles">
+          <h2 class="article-title">2019 04 01</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>April 1, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Ping-t最強問題集 Lpic201 3H</p>
+
+<ul>
+<li>まだどうにしていないセクション 2H
+
+<ul>
+<li>帰宅してからはキャパシティプランニング2周目 1H</li>
+</ul></li>
+</ul>
+
+<h1 id="出先でのことなので記録ができない">出先でのことなので記録ができない</h1>
+
+<hr />
+
+<p>ああ、こりゃダメかもしれないと思った。帰宅してから全く勉強する頭になっていない。</p>
+
+<p>もちろん今日が就業初日であり面談があったというのもあるけれど。</p>
+
+<p>とにかく客先に入るまでの期間暇だったら勉強しなさいという感じみたい。この感じだとやっぱり帰宅してから勉強しないかもしれない…。</p>
+
+<p>でも帰宅してから学習する。という習慣がなくなってしまうのが一番恐ろしいのでそのクセ付けだけはしないといけない。</p>
+
+<p>21時までは絶対に酒を飲まないぞという気概も必要である。</p>
+
+<h1 id="酒を買ってきてしまうとダメだな">酒を買ってきてしまうとダメだな</h1>
+
+<hr />
+
+<p>ウィスキーを切らしてしまっていたので雨が降りしきる中安酒をコンビニに買ってきたのだけれど、失敗だった。</p>
+
+<p>浮足立っちゃって浮足立っちゃってぜんぜん勉強する気にならない。</p>
+
+<p>今やっと21時になったから酒を飲みながらこれを書いている。</p>
+
+<p>どうなんだろう、わからん。とにかくさっさと勉強して今日のところは寝てしまおう。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-04-01/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03%E3%81%AE%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/" class="article-titles">
+          <h2 class="article-title">2019 03の振り返り</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>March 31, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/">
+              <i class="fas fa-folder"></i>
+              振り返り
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E3%81%BE%E3%81%A8%E3%82%81/">
+              <i class="fas fa-tag"></i>
+              まとめ
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="今月の成果">今月の成果</h1>
+
+<hr />
+
+<ul>
+<li>総学習時間 73H</li>
+<li>平均 4H</li>
+<li>分野別
+
+<ul>
+<li>Lpic1 46H</li>
+<li>Lpic2 25H</li>
+<li>Anki 2H</li>
+</ul></li>
+<li>取得資格
+
+<ul>
+<li>LPIC Level1</li>
+</ul></li>
+</ul>
+
+<h1 id="まとめとか感想">まとめとか感想</h1>
+
+<hr />
+
+<p>3月13日から始めた記録、まだ２週間ぐらいしか続いていないけれど続いてよかった…。</p>
+
+<p>無職の今は平均4時間やってることになってるけど、これからは働くわけだから2Hできると嬉しいなあって感じ。</p>
+
+<p>通勤時間にちょっとやるだけでもまあ１時間になるわけだから、あと１時間追加で何かやれればいいかなあ。と今は思っている。</p>
+
+<p>地味に24日スキップしているけれど…。その日は体調が悪かったんだ。</p>
+
+<p>主に資格取得の学習に時間を割いた一ヶ月だった。とはいえ、当面そんな感じになると思うけど。</p>
+
+<p>Lpic Level1が思いの外簡単だったので、この勢いのままLpicは全て取りたい。</p>
+
+<p>こうして学習記録を振り返ることによって成果を確認することは結構モチベーションの向上に寄与するものだと思うんだよ。</p>
+
+<p>今までこの期間何やってたの？に答えられなかったりもしたし、自分でも空っぽな気がしていたから自信に繋がらなかったんだよなあ。</p>
+
+<p>この記録もそのうち飽きたり忙しいとか言ってやらなくなったりするんだろうなあ。</p>
+
+<p>でも無職期間は結構怖かったからそのこころを忘れないようにできれば大丈夫だと思う。孤立無援って感じだったから。自分でまいた種とは言え…。</p>
+
+<h1 id="来月はhugoについてきちんと理解しよう">来月はhugoについてきちんと理解しよう</h1>
+
+<hr />
+
+<p>思ったとおりの挙動になっていないところが多い。</p>
+
+<ul>
+<li>ネスト化されたリストを２段階目までしか認識しない</li>
+<li>長文すぎるとフロントページで素のテキストファイルと認識される（個別ページでは普通）</li>
+<li>readmoreいらないから消したい</li>
+</ul>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-03%E3%81%AE%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-31/" class="article-titles">
+          <h2 class="article-title">2019 03 31</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>March 31, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Ping-t WEB最強問題集 Lpic201 2周目 4H</p>
+
+<ul>
+<li>システムの起動 正答率：65% 1H</li>
+<li>ファイルシステムとデバイス 正答率：63% 1H</li>
+<li>高度なストレージ管理 正答率：62% 0.5H</li>
+<li>ネットワーク構成 正答率：72% 1H</li>
+<li>システムの保守 正答率：63% 0.5H</li>
+</ul>
+
+<h1 id="システムの起動">システムの起動</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>ISOLINUXの概要</li>
+<li>PXEブートの概要</li>
+<li>PXELINUXの概要</li>
+<li>insservとupdate-rc.dコマンド</li>
+</ul>
+
+<p>ISOLINUXについてわかんないのは良いけどPXEブートについてわかんないのはダメじゃない？と思ったので調べた。</p>
+
+<p>PXELINUXについてどうしても物理メディアからのダウンロードというイメージばっかりが先行してしまっていてダメだな。それしかやってこなかったってのもあるんだけど。</p>
+
+<p>insservとかupdate-rc.dとかやっぱりだめだ。覚えられん…。</p>
+
+<p>思いの外正答率は上がらず…。基本的には7~8割は取りたいのだけど…。</p>
+
+<h1 id="ファイルシステムとデバイス">ファイルシステムとデバイス</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>xfs関連コマンド * ext関連のブロックについての概要</li>
+</ul>
+
+<p>xfsについては知らなかったと言うよりは基本的にxfs_xxみたいな命名の体系が多いのにxfsrestoreとかxfsdumpとかだけ違うんだよ。(mkfs.xfsは別種のコマンドだから許される気がする)。</p>
+
+<p>ブロックについての細かいところを覚えてないんだ。</p>
+
+<p>createとmakeってどう違うのだろうと思って調べる。makeは材料とか素材に手を加えて何かを作る。createは今までになかったものを創造する。なるほどね。1から2がmakeなら0から1がcreateか。</p>
+
+<h1 id="高度なストレージ管理">高度なストレージ管理</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>特筆するものはなし</li>
+</ul>
+
+<p>つまりはわかってるんだけどまんべんなく知識が足りないってことだ。</p>
+
+<h1 id="ネットワーク構成">ネットワーク構成</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>iw,iwonfigを使った無線設定</li>
+<li>iwlist</li>
+<li>arpコマンド</li>
+</ul>
+
+<p>デバイスとインターフェースがごちゃごちゃになってわからん。ping-tもそこに触れているわけではないからここについてはスピードマスター問題集で補完したい。</p>
+
+<p>arp全然覚えられん。何でこんなにいっぱい出るんだ…。そんなに大事？arpって…。</p>
+
+<p>あともう設定ファイルを直編集する系は外してくれよ…。それって最新のOSに適応しちゃダメなやつじゃないの。</p>
+
+<h1 id="システムの保守">システムの保守</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>patchコマンド</li>
+<li>テープ使うコマンド</li>
+</ul>
+
+<p>もう許してくれという感じ。どっちも使う気せんなあ。</p>
+
+<h1 id="2周目はとても疲れました">2周目はとても疲れました</h1>
+
+<hr />
+
+<p>なんとか２周めも終了。１周めも２周めも間違えたやつは80問。これは本当におちほ広いというか…。こつこつ潰していくしか無いやつ。解説をきちんと読もう。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-03-31/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-30/" class="article-titles">
+          <h2 class="article-title">2019 03 30</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>March 30, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>ping-t WEB最強問題集 2周目</p>
+
+<ul>
+<li>キャパシティプランニング 0.2H 正答率：84%</li>
+<li>Linuxカーネル 0.5H 正答率：68%</li>
+</ul>
+
+<p>Javascriptでのブラウザからのデータ取得2H</p>
+
+<ul>
+<li>電源断で全て失われた。</li>
+</ul>
+
+<h1 id="キャパシティプランニング">キャパシティプランニング</h1>
+
+<hr />
+
+<p>知らんかったもの</p>
+
+<ul>
+<li>collectd.confの記法</li>
+</ul>
+
+<p>流石に2周目になるとそんなにわからないものはない。単純に問題と答えの組み合わせを覚えてしまった。なんてものもあるのだろうけど…。</p>
+
+<h1 id="linuxカーネル">Linuxカーネル</h1>
+
+<hr />
+
+<p>知らんかったもの</p>
+
+<ul>
+<li>modprobe.confの記法</li>
+</ul>
+
+<p>いろいろと覚え間違いが多くて正答率があまり伸びなかった。</p>
+
+<h1 id="無職なのに土曜日に長時間睡眠">無職なのに土曜日に長時間睡眠</h1>
+
+<hr />
+
+<p>なんなのだ。まったく、そろそろ職につくというのに。</p>
+
+<p>たぶん、だいたい12時間ぐらい眠っていた。やべえ。</p>
+
+<h1 id="ノートpcを買い替えたいなあ">ノートPCを買い替えたいなあ</h1>
+
+<hr />
+
+<p>状況を気に購入したacerにubuntu入れて使っているわけですが、もう限界みたい。</p>
+
+<p>具体的には充電器のコネクタが馬鹿になっていて、知らん間にバッテリーが枯渇している。今さっきもそれで死んでしまった…。今はコネクタ部分を瞬間接着剤で固定しているが、あくまでも応急処置だろう。</p>
+
+<p>久しぶりに思い出しながらjavascriptをぽちぽち書いていたのに…。後少しで感性というところで死んだ。ははは。せめてvscodeでやっていれば…。</p>
+
+<p>バッテリーが限界になるとハイバネーションするとか低下を通知するとかそういった統合デスクトップ環境を入れていないのでこのざまである。いやあ。困った。</p>
+
+<p>もうスペック的にも限界な気もするし、PCを持ち歩きたいと思い始めてきたし、USBPDに対応しているものが欲しいと思う。そんなにスペックはいらないのだけれど…。現状メモリ4GBだとたまに死にかけてるから8GB欲しい…。普段はそんなに使ってないのだけれど…。</p>
+
+<p>あとは久しぶりにwindows pcでも使ってみようかなと思っている。基本的にはブラウザが使えればだいたいのことは事足りるわけだし。</p>
+
+<h1 id="プログラミングは楽しい">プログラミングは楽しい</h1>
+
+<hr />
+
+<p>やっぱりプログラミングって楽しいなと思った。久しぶりに簡単な自動化をやろうとしただけで楽しかったもの。</p>
+
+<p>資格取得だけが学習ではないと思うのでこれからも楽しさとマッチした学習をやっていきたい。</p>
+
+<p>でも当面は金になるような資格取得が優先ですよ。なんだかんだLpic2も割と取れそうだなあ…。と思ってきたところだしね。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-03-30/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-29/" class="article-titles">
+          <h2 class="article-title">2019 03 29</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>March 29, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Lpic201 ping-t最強web問題集 5H</p>
+
+<ul>
+<li><p>高度なストレージ管理 3.5H</p>
+
+<ul>
+<li>RAIDの構成(23) 正答率：87% 2H</li>
+<li>記憶装置へのアクセス方法の調整(38) 正答率：55% 1H</li>
+<li>論理ボリュームマネージャ(31) 正答率：71% 0.5H</li>
+</ul></li>
+
+<li><p>ネットワーク構成 1.5H</p>
+
+<ul>
+<li>基本的なネットワーク構成(36)正答率：33% 0.5H</li>
+<li>高度なネットワーク構成とトラブルシュート(73) 正答率：70% 1H</li>
+</ul></li>
+</ul>
+
+<h1 id="高度なストレージ管理">高度なストレージ管理</h1>
+
+<hr />
+
+<p>知らなかったもの</p>
+
+<ul>
+<li>mdadmコマンド</li>
+<li>RAIDの種類</li>
+<li>LinuxでのiSCSIの利用方法
+
+<ul>
+<li>iscsiadmコマンドの使い方</li>
+</ul></li>
+<li>LVM周りのコマンド</li>
+</ul>
+
+<p>そこそこエンジニアやってるのにRAIDうろ覚えなんだよなあ…。そういうところがダメ。特に1+0とか5+1とかああもうめんどうくさい！となって覚えられない。あとパリティとかそれを使ってどうやってデータを復旧させるのかぶっちゃけわかってない。</p>
+
+<p>いやあやっとわかったよ。サンキューwikipedia!具体例が書いてあるとわかりやすい。<br />
+<a href="https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%86%E3%82%A3%E3%83%93%E3%83%83%E3%83%88#%E3%83%91%E3%83%AA%E3%83%86%E3%82%A3%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF">パリティビット:パリティブロック</a></p>
+
+<p>それにしてもソフトウェアRAIDを構成することなんてある？という思いをやはり抱いてしまう。どうせコスト払うなら一番良いやつ…ってなるんじゃないかなあ。コストケチったから性能出ませんとか障害出ましたとかになったらあんまり笑えないし。今のところはハードウェアRAIDでの実装以外は見たこと無い…。意識してないだけかもしれないけど。</p>
+
+<p>iSCSI周りがいっぱい覚えることあってしんどい。使わないだろうという言い訳もあまりできなそうだしな。とはいえ、使うとなったらミドルウェア経由じゃない？という気もしないことはない。</p>
+
+<p>あまり頭使わない系の暗記物って開設を読むのを後回しにしがちだな、と思う。とはいえ、そういうのって問題を何回かやっていくうちに頭に入っていたりするんだけどね。</p>
+
+<p>LVM周りも基本的なコマンドはLpic1でやったからわかっているけどちょっと大変になってきたなあ。でもコマンドの命名規則がきちんとしているので安心。</p>
+
+<p>命名で気になったのは「削除する」の表現でremoveとdeleteとあるけど、どう使い分けているのか気になっていたのだけれどremoveは取り除く、だから設定ファイルとかは残るイメージ。deleteはファイルとか消して消滅させるイメージみたい。</p>
+
+<h1 id="ネットワーク構成">ネットワーク構成</h1>
+
+<hr />
+
+<p>知らなかったもの</p>
+
+<ul>
+<li>arpコマンド</li>
+<li>iwlistとiwconfigとiwコマンド</li>
+<li>マルチホーム接続の概要</li>
+<li>hosts.allowの書式</li>
+</ul>
+
+<p>arpコマンドについてやたら問われる気がする。そんなに使うものか？</p>
+
+<p>高度なネットワーク構成とトラブルシュートのセクションは「高度な」ってついているけれどLpic1で出てきたセクション多め。基本的な〜の方がむしろ覚えるもの多い。</p>
+
+<p>とはいえ、routeコマンドとか非推奨コマンドとipの差異を覚えるのめんどくさい。いつもこんがらがる。</p>
+
+<p>netstatの出力でudpのstateに何の記載もないのに待受状態であるとなっていたので調べたらudpはステートレスだからというなんとも当たり前なご回答。そりゃそうであると納得。早速試そうとcentos7で打ったらそもそもnetstatがないし、ssで確認したらunconn(unconnected)というわかりやすい表記に変わっていた。そりゃ何か書いてあったほうがいいよね。やっぱり非推奨コマンド覚えたくない。</p>
+
+<h1 id="ping-t-201分野なんとか一周">ping-t 201分野なんとか一周</h1>
+
+<hr />
+
+<p>さて、これからが本当の地獄だ…。というのも気分によってまともに解説を読まなかったり、ankiに情報を入力しなかったりしているので歯抜けになったりしているのだ。ああ、めんどうくさい。</p>
+
+<p>つまり2周めからは気乗りしないようなものの解説を読んで、それをまとめて…。というような作業になる。しんどい。まあ、やるしか無いのだけれど。</p>
+
+<p>非推奨だよ、とかそういう文句をもう言いたくないからさっさと終わらせて202に入っていきたいという気持ちもある。サーバのコンフィグってそんなに変わることは無いはず…。</p>
+
+<h1 id="昨日肉を食べたおかげなのかとても元気">昨日肉を食べたおかげなのかとても元気</h1>
+
+<hr />
+
+<p>久しぶりに肉を大量に食べたような気がする。赤貧洗うが如しって感じだったので。ケンタッキーさんありがとう。前行った時は完全に目がキレてる店員さんが対応していて怖かったからもう二度と行かね！って思っていたのだけど行ってよかった。</p>
+
+<p>今回も怖い人に当たると嫌だったからネットで注文して取りに行こうとしたらメンテナンス中だった。仕方無しにとりのひだから混んでいる店舗にそこそこ並んで注文した。店員さんはとてもいい人でホッとした。対応も早かったし。じゃあなんだったんだ。前に行ったときの店員さんって…。</p>
+
+<p>今日はいきなり寒くなって怖い。体調崩したくないなあ。</p>
+
+<p>突然すごく眠くなり、昼寝してしまった。30分ぐらいだけれど、前みたいに23時ぐらいに眠れるようになりたい。起き抜けでやった基本的なネットワーク構成のセクションはかなり適当。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/studyrecord/post/2019-03-29/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+    </section>
+    
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="https://wadayt.github.io/studyrecord/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+    <a href="https://wadayt.github.io/studyrecord/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="https://wadayt.github.io/studyrecord/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="https://wadayt.github.io/studyrecord/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="https://wadayt.github.io/studyrecord/page/3/">3</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="https://wadayt.github.io/studyrecord/page/4/">4</a></li>
+    
+    
+    <li class="page-item">
+    <a href="https://wadayt.github.io/studyrecord/page/3/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="https://wadayt.github.io/studyrecord/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
+
+  </div>
+
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2019 Yuta Wada</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-rsslink">
+      <a href="https://wadayt.github.io/studyrecord/index.xml" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li class="site-footer-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+</body>
+</html>

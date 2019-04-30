@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>2019 03 28 - 学習記録</title>
+  <meta property="og:title" content="2019 03 28 - 学習記録" />
+  <meta name="twitter:title" content="2019 03 28 - 学習記録" />
+  <meta name="description" content="学習内容 Lpic201 ping-t最強web問題集 2H
+ ファイルシステムとデバイス(118問)  Linuxファイルシステムの操作と保守（正答率88%）　1H ファイルシステムの作成とオプションの構成(正答率33%) 1H   LPICレベル2 スピードマスター問題集
+ 第一章　キャパシティプランニング(12問) 0.5H  ファイルシステムとデバイス 知らない箇所
+ btrfsの概要、コマンド blkidコマンド VFSの概要 LinuxでのSMART実行方法 Linux上でのfat,ntfsの取扱い LUKS(Linux Unified Key Setup) の概要、LUKSパーティションの操作方法  dm-cryptとdm-cryptを利用するcryptsetupコマンドの使いかた  mkisofsコマンド debugfsコマンド ext3ファイルシステムの内部構造  　Linuxファイルシステムの操作と保守については、基本的にはLpic1でやっていたりするので結構できた。なんとなくファイルシステムの知識があるので助けられているな。fstabの書式は大事だと思ったからきちんと覚えていられてよかった。
+　ファイルシステムの作成とオプションの構成についてはちょっとわからん。Lpic1で出てくる内容もあるけれど、より深く掘り下げている。
+　btrfsとか全く知識のない分野は苦手…。そりゃそうだが。btrfsってあんまり普及してなさそうだけれど覚える必要（こういう考えが浮かぶとだめだ）。
+　はあー、ブロックデバイスの暗号とか全く知らん。びっくりした。
+　ext3ファイルシステムの構造これ覚えるのしんどいなあ。 スピードマスター問題集キャパシティプランニング 知らない箇所
+ 特になし  　スマートフォンの画面でping-tをやるのはあまり気が進まないので紙の問題集を使う。正直分厚い問題酒を持ち歩く気にはならないんだけど、それでもスマートフォンでping-tやるより良いかなってかんじ。
+キャパシティプランニングについてはかなり問題数少なめ。ping-tの1/6ぐらいじゃないか？ping-tでは答えられなかった問題が残ったけれど、こっちは無し。あんまり考えずとも答えられる。 記録の書き方を考え中 　知らない箇所が結局一番大事なのでそれを残しておくことにした。試験を機に学習ということは実務経験が伴っていないということでもあるのでどうしても知識が薄くなりやすい。振り返りがしやすいようにした。 入社前の作業をやってきた 　入金用口座作成のために番号で呼ばれ、健康診断でも番号で呼ばれたので懲役でも食らってる気持ちになった。
+　とりあえず、今日は結構疲れたので早めの切り上げ、健康診断のせいであんまりものを食べられなかったのでケンタッキーでとりの日パックを買ってきて食べるぞ。久しぶりの贅沢という感じだ。1000円で食べられるものを贅沢に感じるというのも独身男の暮らしからするとちょっと変な感じ。
+　趣味のない人間にとっては食事が一番の娯楽みたいなところあるからね。金の使い方が適当だったというのもあるが。">
+  <meta property="og:description" content="学習内容 Lpic201 ping-t最強web問題集 2H
+ ファイルシステムとデバイス(118問)  Linuxファイルシステムの操作と保守（正答率88%）　1H ファイルシステムの作成とオプションの構成(正答率33%) 1H   LPICレベル2 スピードマスター問題集
+ 第一章　キャパシティプランニング(12問) 0.5H  ファイルシステムとデバイス 知らない箇所
+ btrfsの概要、コマンド blkidコマンド VFSの概要 LinuxでのSMART実行方法 Linux上でのfat,ntfsの取扱い LUKS(Linux Unified Key Setup) の概要、LUKSパーティションの操作方法  dm-cryptとdm-cryptを利用するcryptsetupコマンドの使いかた  mkisofsコマンド debugfsコマンド ext3ファイルシステムの内部構造  　Linuxファイルシステムの操作と保守については、基本的にはLpic1でやっていたりするので結構できた。なんとなくファイルシステムの知識があるので助けられているな。fstabの書式は大事だと思ったからきちんと覚えていられてよかった。
+　ファイルシステムの作成とオプションの構成についてはちょっとわからん。Lpic1で出てくる内容もあるけれど、より深く掘り下げている。
+　btrfsとか全く知識のない分野は苦手…。そりゃそうだが。btrfsってあんまり普及してなさそうだけれど覚える必要（こういう考えが浮かぶとだめだ）。
+　はあー、ブロックデバイスの暗号とか全く知らん。びっくりした。
+　ext3ファイルシステムの構造これ覚えるのしんどいなあ。 スピードマスター問題集キャパシティプランニング 知らない箇所
+ 特になし  　スマートフォンの画面でping-tをやるのはあまり気が進まないので紙の問題集を使う。正直分厚い問題酒を持ち歩く気にはならないんだけど、それでもスマートフォンでping-tやるより良いかなってかんじ。
+キャパシティプランニングについてはかなり問題数少なめ。ping-tの1/6ぐらいじゃないか？ping-tでは答えられなかった問題が残ったけれど、こっちは無し。あんまり考えずとも答えられる。 記録の書き方を考え中 　知らない箇所が結局一番大事なのでそれを残しておくことにした。試験を機に学習ということは実務経験が伴っていないということでもあるのでどうしても知識が薄くなりやすい。振り返りがしやすいようにした。 入社前の作業をやってきた 　入金用口座作成のために番号で呼ばれ、健康診断でも番号で呼ばれたので懲役でも食らってる気持ちになった。
+　とりあえず、今日は結構疲れたので早めの切り上げ、健康診断のせいであんまりものを食べられなかったのでケンタッキーでとりの日パックを買ってきて食べるぞ。久しぶりの贅沢という感じだ。1000円で食べられるものを贅沢に感じるというのも独身男の暮らしからするとちょっと変な感じ。
+　趣味のない人間にとっては食事が一番の娯楽みたいなところあるからね。金の使い方が適当だったというのもあるが。">
+  <meta name="twitter:description" content="学習内容 Lpic201 ping-t最強web問題集 2H
+ ファイルシステムとデバイス(118問)  Linuxファイルシステムの操作と保守（正答率88%）　1H ファイルシステムの作成とオプションの構成(正答率33%) 1H   LPICレベル2 スピードマスター問題集
+ 第一章　キャパシティプランニング(12問) 0.5H  ファイルシステムとデバイス 知らない箇所
+ btrfsの概要、コ …">
+  <meta name="author" content="Yuta Wada"/>
+  <meta property="og:site_name" content="学習記録" />
+  <meta property="og:url" content="https://wadayt.github.io/studyrecord/post/2019-03-28/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.55.4" />
+
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/custom.css" media="all" />
+
+  <script src="https://wadayt.github.io/studyrecord/js/script.js"></script>
+  <script src="https://wadayt.github.io/studyrecord/js/custom.js"></script>
+  <script defer src="https://wadayt.github.io/studyrecord/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://wadayt.github.io/studyrecord/">学習記録</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="https://wadayt.github.io/studyrecord/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://wadayt.github.io/studyrecord/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://wadayt.github.io/studyrecord/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">2019 03 28</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>March 28, 2019</time></li>
+        <li class="article-meta-categories">
+          <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+            <i class="fas fa-folder"></i>
+            学習
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+            <i class="fas fa-tag"></i>
+            Lpic
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+            <i class="fas fa-tag"></i>
+            資格
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+      
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Lpic201 ping-t最強web問題集 2H</p>
+
+<ul>
+<li>ファイルシステムとデバイス(118問)
+
+<ul>
+<li>Linuxファイルシステムの操作と保守（正答率88%）　1H</li>
+<li>ファイルシステムの作成とオプションの構成(正答率33%) 1H</li>
+</ul></li>
+</ul>
+
+<p>LPICレベル2 スピードマスター問題集</p>
+
+<ul>
+<li>第一章　キャパシティプランニング(12問) 0.5H</li>
+</ul>
+
+<h1 id="ファイルシステムとデバイス">ファイルシステムとデバイス</h1>
+
+<hr />
+
+<p>知らない箇所</p>
+
+<ul>
+<li>btrfsの概要、コマンド</li>
+<li>blkidコマンド</li>
+<li>VFSの概要</li>
+<li>LinuxでのSMART実行方法</li>
+<li>Linux上でのfat,ntfsの取扱い</li>
+<li>LUKS(Linux Unified Key Setup) の概要、LUKSパーティションの操作方法
+
+<ul>
+<li>dm-cryptとdm-cryptを利用するcryptsetupコマンドの使いかた</li>
+</ul></li>
+<li>mkisofsコマンド</li>
+<li>debugfsコマンド</li>
+<li>ext3ファイルシステムの内部構造</li>
+</ul>
+
+<p>　Linuxファイルシステムの操作と保守については、基本的にはLpic1でやっていたりするので結構できた。なんとなくファイルシステムの知識があるので助けられているな。fstabの書式は大事だと思ったからきちんと覚えていられてよかった。</p>
+
+<p>　ファイルシステムの作成とオプションの構成についてはちょっとわからん。Lpic1で出てくる内容もあるけれど、より深く掘り下げている。</p>
+
+<p>　btrfsとか全く知識のない分野は苦手…。そりゃそうだが。btrfsってあんまり普及してなさそうだけれど覚える必要（こういう考えが浮かぶとだめだ）。</p>
+
+<p>　はあー、ブロックデバイスの暗号とか全く知らん。びっくりした。</p>
+
+<p>　ext3ファイルシステムの構造これ覚えるのしんどいなあ。
+　<br />
+　</p>
+
+<h1 id="スピードマスター問題集キャパシティプランニング">スピードマスター問題集キャパシティプランニング</h1>
+
+<hr />
+
+<p>知らない箇所</p>
+
+<ul>
+<li>特になし</li>
+</ul>
+
+<p>　スマートフォンの画面でping-tをやるのはあまり気が進まないので紙の問題集を使う。正直分厚い問題酒を持ち歩く気にはならないんだけど、それでもスマートフォンでping-tやるより良いかなってかんじ。</p>
+
+<p>キャパシティプランニングについてはかなり問題数少なめ。ping-tの1/6ぐらいじゃないか？ping-tでは答えられなかった問題が残ったけれど、こっちは無し。あんまり考えずとも答えられる。
+　<br />
+　</p>
+
+<h1 id="記録の書き方を考え中">記録の書き方を考え中</h1>
+
+<hr />
+
+<p>　知らない箇所が結局一番大事なのでそれを残しておくことにした。試験を機に学習ということは実務経験が伴っていないということでもあるのでどうしても知識が薄くなりやすい。振り返りがしやすいようにした。
+　<br />
+　</p>
+
+<h1 id="入社前の作業をやってきた">入社前の作業をやってきた</h1>
+
+<hr />
+
+<p>　入金用口座作成のために番号で呼ばれ、健康診断でも番号で呼ばれたので懲役でも食らってる気持ちになった。</p>
+
+<p>　とりあえず、今日は結構疲れたので早めの切り上げ、健康診断のせいであんまりものを食べられなかったのでケンタッキーでとりの日パックを買ってきて食べるぞ。久しぶりの贅沢という感じだ。1000円で食べられるものを贅沢に感じるというのも独身男の暮らしからするとちょっと変な感じ。</p>
+
+<p>　趣味のない人間にとっては食事が一番の娯楽みたいなところあるからね。金の使い方が適当だったというのもあるが。</p>
+
+    </article>
+
+    
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+  <li>
+    <div class="fb-share-button" data-href="https://wadayt.github.io/studyrecord/post/2019-03-28/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </li>
+  <li>
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </li>
+  <li>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+  </li>
+</ul>
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://wadayt.github.io/studyrecord/post/2019-03-29/" data-toggle="tooltip" data-placement="top" title="2019 03 29">&lt; Newer</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-27/" data-toggle="tooltip" data-placement="top" title="2019 03 27">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2019 Yuta Wada</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>まとめ on 学習記録</title>
+    <link>https://wadayt.github.io/studyrecord/tags/%E3%81%BE%E3%81%A8%E3%82%81/</link>
+    <description>Recent content in まとめ on 学習記録</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
+    <lastBuildDate>Sun, 31 Mar 2019 09:43:58 +0900</lastBuildDate>
+    
+	<atom:link href="https://wadayt.github.io/studyrecord/tags/%E3%81%BE%E3%81%A8%E3%82%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 03の振り返り</title>
+      <link>https://wadayt.github.io/studyrecord/post/2019-03%E3%81%AE%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</link>
+      <pubDate>Sun, 31 Mar 2019 09:43:58 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/studyrecord/post/2019-03%E3%81%AE%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/</guid>
+      <description> 今月の成果  総学習時間 73H 平均 4H 分野別  Lpic1 46H Lpic2 25H Anki 2H  取得資格  LPIC Level1   まとめとか感想 3月13日から始めた記録、まだ２週間ぐらいしか続いていないけれど続いてよかった…。
+無職の今は平均4時間やってることになってるけど、これからは働くわけだから2Hできると嬉しいなあって感じ。
+通勤時間にちょっとやるだけでもまあ１時間になるわけだから、あと１時間追加で何かやれればいいかなあ。と今は思っている。
+地味に24日スキップしているけれど…。その日は体調が悪かったんだ。
+主に資格取得の学習に時間を割いた一ヶ月だった。とはいえ、当面そんな感じになると思うけど。
+Lpic Level1が思いの外簡単だったので、この勢いのままLpicは全て取りたい。
+こうして学習記録を振り返ることによって成果を確認することは結構モチベーションの向上に寄与するものだと思うんだよ。
+今までこの期間何やってたの？に答えられなかったりもしたし、自分でも空っぽな気がしていたから自信に繋がらなかったんだよなあ。
+この記録もそのうち飽きたり忙しいとか言ってやらなくなったりするんだろうなあ。
+でも無職期間は結構怖かったからそのこころを忘れないようにできれば大丈夫だと思う。孤立無援って感じだったから。自分でまいた種とは言え…。
+来月はhugoについてきちんと理解しよう 思ったとおりの挙動になっていないところが多い。
+ ネスト化されたリストを２段階目までしか認識しない 長文すぎるとフロントページで素のテキストファイルと認識される（個別ページでは普通） readmoreいらないから消したい  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>2019 03 29 - 学習記録</title>
+  <meta property="og:title" content="2019 03 29 - 学習記録" />
+  <meta name="twitter:title" content="2019 03 29 - 学習記録" />
+  <meta name="description" content="学習内容 Lpic201 ping-t最強web問題集 5H
+ 高度なストレージ管理 3.5H
+ RAIDの構成(23) 正答率：87% 2H 記憶装置へのアクセス方法の調整(38) 正答率：55% 1H 論理ボリュームマネージャ(31) 正答率：71% 0.5H  ネットワーク構成 1.5H
+ 基本的なネットワーク構成(36)正答率：33% 0.5H 高度なネットワーク構成とトラブルシュート(73) 正答率：70% 1H   高度なストレージ管理 知らなかったもの
+ mdadmコマンド RAIDの種類 LinuxでのiSCSIの利用方法  iscsiadmコマンドの使い方  LVM周りのコマンド  そこそこエンジニアやってるのにRAIDうろ覚えなんだよなあ…。そういうところがダメ。特に1&#43;0とか5&#43;1とかああもうめんどうくさい！となって覚えられない。あとパリティとかそれを使ってどうやってデータを復旧させるのかぶっちゃけわかってない。
+いやあやっとわかったよ。サンキューwikipedia!具体例が書いてあるとわかりやすい。
+パリティビット:パリティブロック
+それにしてもソフトウェアRAIDを構成することなんてある？という思いをやはり抱いてしまう。どうせコスト払うなら一番良いやつ…ってなるんじゃないかなあ。コストケチったから性能出ませんとか障害出ましたとかになったらあんまり笑えないし。今のところはハードウェアRAIDでの実装以外は見たこと無い…。意識してないだけかもしれないけど。
+iSCSI周りがいっぱい覚えることあってしんどい。使わないだろうという言い訳もあまりできなそうだしな。とはいえ、使うとなったらミドルウェア経由じゃない？という気もしないことはない。
+あまり頭使わない系の暗記物って開設を読むのを後回しにしがちだな、と思う。とはいえ、そういうのって問題を何回かやっていくうちに頭に入っていたりするんだけどね。
+LVM周りも基本的なコマンドはLpic1でやったからわかっているけどちょっと大変になってきたなあ。でもコマンドの命名規則がきちんとしているので安心。
+命名で気になったのは「削除する」の表現でremoveとdeleteとあるけど、どう使い分けているのか気になっていたのだけれどremoveは取り除く、だから設定ファイルとかは残るイメージ。deleteはファイルとか消して消滅させるイメージみたい。
+ネットワーク構成 知らなかったもの
+ arpコマンド iwlistとiwconfigとiwコマンド マルチホーム接続の概要 hosts.allowの書式  arpコマンドについてやたら問われる気がする。そんなに使うものか？
+高度なネットワーク構成とトラブルシュートのセクションは「高度な」ってついているけれどLpic1で出てきたセクション多め。基本的な〜の方がむしろ覚えるもの多い。
+とはいえ、routeコマンドとか非推奨コマンドとipの差異を覚えるのめんどくさい。いつもこんがらがる。
+netstatの出力でudpのstateに何の記載もないのに待受状態であるとなっていたので調べたらudpはステートレスだからというなんとも当たり前なご回答。そりゃそうであると納得。早速試そうとcentos7で打ったらそもそもnetstatがないし、ssで確認したらunconn(unconnected)というわかりやすい表記に変わっていた。そりゃ何か書いてあったほうがいいよね。やっぱり非推奨コマンド覚えたくない。
+ping-t 201分野なんとか一周 さて、これからが本当の地獄だ…。というのも気分によってまともに解説を読まなかったり、ankiに情報を入力しなかったりしているので歯抜けになったりしているのだ。ああ、めんどうくさい。
+つまり2周めからは気乗りしないようなものの解説を読んで、それをまとめて…。というような作業になる。しんどい。まあ、やるしか無いのだけれど。
+非推奨だよ、とかそういう文句をもう言いたくないからさっさと終わらせて202に入っていきたいという気持ちもある。サーバのコンフィグってそんなに変わることは無いはず…。
+昨日肉を食べたおかげなのかとても元気 久しぶりに肉を大量に食べたような気がする。赤貧洗うが如しって感じだったので。ケンタッキーさんありがとう。前行った時は完全に目がキレてる店員さんが対応していて怖かったからもう二度と行かね！って思っていたのだけど行ってよかった。
+今回も怖い人に当たると嫌だったからネットで注文して取りに行こうとしたらメンテナンス中だった。仕方無しにとりのひだから混んでいる店舗にそこそこ並んで注文した。店員さんはとてもいい人でホッとした。対応も早かったし。じゃあなんだったんだ。前に行ったときの店員さんって…。
+今日はいきなり寒くなって怖い。体調崩したくないなあ。
+突然すごく眠くなり、昼寝してしまった。30分ぐらいだけれど、前みたいに23時ぐらいに眠れるようになりたい。起き抜けでやった基本的なネットワーク構成のセクションはかなり適当。">
+  <meta property="og:description" content="学習内容 Lpic201 ping-t最強web問題集 5H
+ 高度なストレージ管理 3.5H
+ RAIDの構成(23) 正答率：87% 2H 記憶装置へのアクセス方法の調整(38) 正答率：55% 1H 論理ボリュームマネージャ(31) 正答率：71% 0.5H  ネットワーク構成 1.5H
+ 基本的なネットワーク構成(36)正答率：33% 0.5H 高度なネットワーク構成とトラブルシュート(73) 正答率：70% 1H   高度なストレージ管理 知らなかったもの
+ mdadmコマンド RAIDの種類 LinuxでのiSCSIの利用方法  iscsiadmコマンドの使い方  LVM周りのコマンド  そこそこエンジニアやってるのにRAIDうろ覚えなんだよなあ…。そういうところがダメ。特に1&#43;0とか5&#43;1とかああもうめんどうくさい！となって覚えられない。あとパリティとかそれを使ってどうやってデータを復旧させるのかぶっちゃけわかってない。
+いやあやっとわかったよ。サンキューwikipedia!具体例が書いてあるとわかりやすい。
+パリティビット:パリティブロック
+それにしてもソフトウェアRAIDを構成することなんてある？という思いをやはり抱いてしまう。どうせコスト払うなら一番良いやつ…ってなるんじゃないかなあ。コストケチったから性能出ませんとか障害出ましたとかになったらあんまり笑えないし。今のところはハードウェアRAIDでの実装以外は見たこと無い…。意識してないだけかもしれないけど。
+iSCSI周りがいっぱい覚えることあってしんどい。使わないだろうという言い訳もあまりできなそうだしな。とはいえ、使うとなったらミドルウェア経由じゃない？という気もしないことはない。
+あまり頭使わない系の暗記物って開設を読むのを後回しにしがちだな、と思う。とはいえ、そういうのって問題を何回かやっていくうちに頭に入っていたりするんだけどね。
+LVM周りも基本的なコマンドはLpic1でやったからわかっているけどちょっと大変になってきたなあ。でもコマンドの命名規則がきちんとしているので安心。
+命名で気になったのは「削除する」の表現でremoveとdeleteとあるけど、どう使い分けているのか気になっていたのだけれどremoveは取り除く、だから設定ファイルとかは残るイメージ。deleteはファイルとか消して消滅させるイメージみたい。
+ネットワーク構成 知らなかったもの
+ arpコマンド iwlistとiwconfigとiwコマンド マルチホーム接続の概要 hosts.allowの書式  arpコマンドについてやたら問われる気がする。そんなに使うものか？
+高度なネットワーク構成とトラブルシュートのセクションは「高度な」ってついているけれどLpic1で出てきたセクション多め。基本的な〜の方がむしろ覚えるもの多い。
+とはいえ、routeコマンドとか非推奨コマンドとipの差異を覚えるのめんどくさい。いつもこんがらがる。
+netstatの出力でudpのstateに何の記載もないのに待受状態であるとなっていたので調べたらudpはステートレスだからというなんとも当たり前なご回答。そりゃそうであると納得。早速試そうとcentos7で打ったらそもそもnetstatがないし、ssで確認したらunconn(unconnected)というわかりやすい表記に変わっていた。そりゃ何か書いてあったほうがいいよね。やっぱり非推奨コマンド覚えたくない。
+ping-t 201分野なんとか一周 さて、これからが本当の地獄だ…。というのも気分によってまともに解説を読まなかったり、ankiに情報を入力しなかったりしているので歯抜けになったりしているのだ。ああ、めんどうくさい。
+つまり2周めからは気乗りしないようなものの解説を読んで、それをまとめて…。というような作業になる。しんどい。まあ、やるしか無いのだけれど。
+非推奨だよ、とかそういう文句をもう言いたくないからさっさと終わらせて202に入っていきたいという気持ちもある。サーバのコンフィグってそんなに変わることは無いはず…。
+昨日肉を食べたおかげなのかとても元気 久しぶりに肉を大量に食べたような気がする。赤貧洗うが如しって感じだったので。ケンタッキーさんありがとう。前行った時は完全に目がキレてる店員さんが対応していて怖かったからもう二度と行かね！って思っていたのだけど行ってよかった。
+今回も怖い人に当たると嫌だったからネットで注文して取りに行こうとしたらメンテナンス中だった。仕方無しにとりのひだから混んでいる店舗にそこそこ並んで注文した。店員さんはとてもいい人でホッとした。対応も早かったし。じゃあなんだったんだ。前に行ったときの店員さんって…。
+今日はいきなり寒くなって怖い。体調崩したくないなあ。
+突然すごく眠くなり、昼寝してしまった。30分ぐらいだけれど、前みたいに23時ぐらいに眠れるようになりたい。起き抜けでやった基本的なネットワーク構成のセクションはかなり適当。">
+  <meta name="twitter:description" content="学習内容 Lpic201 ping-t最強web問題集 5H
+ 高度なストレージ管理 3.5H
+ RAIDの構成(23) 正答率：87% 2H 記憶装置へのアクセス方法の調整(38) 正答率：55% 1H 論理ボリュームマネージャ(31) 正答率：71% 0.5H  ネットワーク構成 1.5H
+ 基本的なネットワーク構成(36)正答率：33% 0.5H 高度なネットワーク構成とトラブルシュー …">
+  <meta name="author" content="Yuta Wada"/>
+  <meta property="og:site_name" content="学習記録" />
+  <meta property="og:url" content="https://wadayt.github.io/studyrecord/post/2019-03-29/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.55.4" />
+
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/custom.css" media="all" />
+
+  <script src="https://wadayt.github.io/studyrecord/js/script.js"></script>
+  <script src="https://wadayt.github.io/studyrecord/js/custom.js"></script>
+  <script defer src="https://wadayt.github.io/studyrecord/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://wadayt.github.io/studyrecord/">学習記録</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="https://wadayt.github.io/studyrecord/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://wadayt.github.io/studyrecord/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://wadayt.github.io/studyrecord/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">2019 03 29</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>March 29, 2019</time></li>
+        <li class="article-meta-categories">
+          <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+            <i class="fas fa-folder"></i>
+            学習
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+            <i class="fas fa-tag"></i>
+            Lpic
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+            <i class="fas fa-tag"></i>
+            資格
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+      
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Lpic201 ping-t最強web問題集 5H</p>
+
+<ul>
+<li><p>高度なストレージ管理 3.5H</p>
+
+<ul>
+<li>RAIDの構成(23) 正答率：87% 2H</li>
+<li>記憶装置へのアクセス方法の調整(38) 正答率：55% 1H</li>
+<li>論理ボリュームマネージャ(31) 正答率：71% 0.5H</li>
+</ul></li>
+
+<li><p>ネットワーク構成 1.5H</p>
+
+<ul>
+<li>基本的なネットワーク構成(36)正答率：33% 0.5H</li>
+<li>高度なネットワーク構成とトラブルシュート(73) 正答率：70% 1H</li>
+</ul></li>
+</ul>
+
+<h1 id="高度なストレージ管理">高度なストレージ管理</h1>
+
+<hr />
+
+<p>知らなかったもの</p>
+
+<ul>
+<li>mdadmコマンド</li>
+<li>RAIDの種類</li>
+<li>LinuxでのiSCSIの利用方法
+
+<ul>
+<li>iscsiadmコマンドの使い方</li>
+</ul></li>
+<li>LVM周りのコマンド</li>
+</ul>
+
+<p>そこそこエンジニアやってるのにRAIDうろ覚えなんだよなあ…。そういうところがダメ。特に1+0とか5+1とかああもうめんどうくさい！となって覚えられない。あとパリティとかそれを使ってどうやってデータを復旧させるのかぶっちゃけわかってない。</p>
+
+<p>いやあやっとわかったよ。サンキューwikipedia!具体例が書いてあるとわかりやすい。<br />
+<a href="https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%86%E3%82%A3%E3%83%93%E3%83%83%E3%83%88#%E3%83%91%E3%83%AA%E3%83%86%E3%82%A3%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF">パリティビット:パリティブロック</a></p>
+
+<p>それにしてもソフトウェアRAIDを構成することなんてある？という思いをやはり抱いてしまう。どうせコスト払うなら一番良いやつ…ってなるんじゃないかなあ。コストケチったから性能出ませんとか障害出ましたとかになったらあんまり笑えないし。今のところはハードウェアRAIDでの実装以外は見たこと無い…。意識してないだけかもしれないけど。</p>
+
+<p>iSCSI周りがいっぱい覚えることあってしんどい。使わないだろうという言い訳もあまりできなそうだしな。とはいえ、使うとなったらミドルウェア経由じゃない？という気もしないことはない。</p>
+
+<p>あまり頭使わない系の暗記物って開設を読むのを後回しにしがちだな、と思う。とはいえ、そういうのって問題を何回かやっていくうちに頭に入っていたりするんだけどね。</p>
+
+<p>LVM周りも基本的なコマンドはLpic1でやったからわかっているけどちょっと大変になってきたなあ。でもコマンドの命名規則がきちんとしているので安心。</p>
+
+<p>命名で気になったのは「削除する」の表現でremoveとdeleteとあるけど、どう使い分けているのか気になっていたのだけれどremoveは取り除く、だから設定ファイルとかは残るイメージ。deleteはファイルとか消して消滅させるイメージみたい。</p>
+
+<h1 id="ネットワーク構成">ネットワーク構成</h1>
+
+<hr />
+
+<p>知らなかったもの</p>
+
+<ul>
+<li>arpコマンド</li>
+<li>iwlistとiwconfigとiwコマンド</li>
+<li>マルチホーム接続の概要</li>
+<li>hosts.allowの書式</li>
+</ul>
+
+<p>arpコマンドについてやたら問われる気がする。そんなに使うものか？</p>
+
+<p>高度なネットワーク構成とトラブルシュートのセクションは「高度な」ってついているけれどLpic1で出てきたセクション多め。基本的な〜の方がむしろ覚えるもの多い。</p>
+
+<p>とはいえ、routeコマンドとか非推奨コマンドとipの差異を覚えるのめんどくさい。いつもこんがらがる。</p>
+
+<p>netstatの出力でudpのstateに何の記載もないのに待受状態であるとなっていたので調べたらudpはステートレスだからというなんとも当たり前なご回答。そりゃそうであると納得。早速試そうとcentos7で打ったらそもそもnetstatがないし、ssで確認したらunconn(unconnected)というわかりやすい表記に変わっていた。そりゃ何か書いてあったほうがいいよね。やっぱり非推奨コマンド覚えたくない。</p>
+
+<h1 id="ping-t-201分野なんとか一周">ping-t 201分野なんとか一周</h1>
+
+<hr />
+
+<p>さて、これからが本当の地獄だ…。というのも気分によってまともに解説を読まなかったり、ankiに情報を入力しなかったりしているので歯抜けになったりしているのだ。ああ、めんどうくさい。</p>
+
+<p>つまり2周めからは気乗りしないようなものの解説を読んで、それをまとめて…。というような作業になる。しんどい。まあ、やるしか無いのだけれど。</p>
+
+<p>非推奨だよ、とかそういう文句をもう言いたくないからさっさと終わらせて202に入っていきたいという気持ちもある。サーバのコンフィグってそんなに変わることは無いはず…。</p>
+
+<h1 id="昨日肉を食べたおかげなのかとても元気">昨日肉を食べたおかげなのかとても元気</h1>
+
+<hr />
+
+<p>久しぶりに肉を大量に食べたような気がする。赤貧洗うが如しって感じだったので。ケンタッキーさんありがとう。前行った時は完全に目がキレてる店員さんが対応していて怖かったからもう二度と行かね！って思っていたのだけど行ってよかった。</p>
+
+<p>今回も怖い人に当たると嫌だったからネットで注文して取りに行こうとしたらメンテナンス中だった。仕方無しにとりのひだから混んでいる店舗にそこそこ並んで注文した。店員さんはとてもいい人でホッとした。対応も早かったし。じゃあなんだったんだ。前に行ったときの店員さんって…。</p>
+
+<p>今日はいきなり寒くなって怖い。体調崩したくないなあ。</p>
+
+<p>突然すごく眠くなり、昼寝してしまった。30分ぐらいだけれど、前みたいに23時ぐらいに眠れるようになりたい。起き抜けでやった基本的なネットワーク構成のセクションはかなり適当。</p>
+
+    </article>
+
+    
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+  <li>
+    <div class="fb-share-button" data-href="https://wadayt.github.io/studyrecord/post/2019-03-29/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </li>
+  <li>
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </li>
+  <li>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+  </li>
+</ul>
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://wadayt.github.io/studyrecord/post/2019-03-30/" data-toggle="tooltip" data-placement="top" title="2019 03 30">&lt; Newer</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-28/" data-toggle="tooltip" data-placement="top" title="2019 03 28">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2019 Yuta Wada</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+</body>
+</html>

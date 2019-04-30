@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>2019 03 20 - 学習記録</title>
+  <meta property="og:title" content="2019 03 20 - 学習記録" />
+  <meta name="twitter:title" content="2019 03 20 - 学習記録" />
+  <meta name="description" content="学習内容  Lpic6H   Ping-tを頭からやり直す 今までの学習記録をリセットし、頭からやり直す。95%は越しているけれど、自分が想像している以上に間違えてちょっとがっかりする。ぶっ通しでやり続けたことによる集中力の低下でのケアレスミスが多かったけれど、それ本番でもやっちゃうんじゃないの？という恐怖感がちょっとある。嫌だなあ。注意力の低さがこういうところで出るよなあ。inetd周りのこととかあんまり覚えていなかったみたいなのでankiに突っ込んでおいた。これである程度安心できる。ifconfigとrouteとipコマンドの3つが出てきて、それぞれにネットワーク設定の指定があるので混乱してきた。ifconfigは非推奨になってるわけだし消したほうが良いんじゃない？と思うけど。今はただのエイリアスなんじゃないっけ？でも設定スクリプトとかに残っていて読めなかったらこまるよってことなのかな？インフラの設定ももうプログラマブルな感じになってるからあんまり使いそうもないけど…。さっと確認コマンドぐらい打てたほうが良いとは思う。 ぐちゃぐちゃ書かれたこのブログの意義とは それにしてもせっかく学習記録のブログを付けているのにカリキュラムへの愚痴ばっかりが記録されていて、あんまり意義がないなあ。と思ってきた。やったことを細分化できていないし、振り返りができてないんだなあ。今回は実務でやってきたものが中心だったからわからないもの=真面目に勉強する必要がないものという気持ちになってしまっているのが問題なのだろうなあ。できるものはできて当然という気持ちだろうし。正直なところ一番上の学習内容セクションに書いてある時間を記録することがメインだから文章は蛇足なのだけど。
+そもそもここでぐちゃぐちゃ書いているのって人に見せることを目的としていると言うよりは書いてスッキリしたいというのが目的だからなあ。そんなもん公共の場に置くなよ、リソースの無駄遣いだ。でもこうして公的な場所に自分のまとまってない考えを書いておくとそのうちまとまりのある整然とした文章がかけるようになるんじゃないか？と言う風に期待しているんだよ、きっと。
+しかし、偉い人に提出する報告書ぐらいの気持ちで書いていこうかなあ。でもそうすると報告書の作成というタスクをそこそこのプライオリティで書いていかなきゃいけないか。学習の最中にも記録をしていかないとダメになるかも。でも振り返りが楽だよ？それにわからない点がわかるとそこを重点的にやれば良いと理解が進むし…。でも資格学習みたいにテキストがあるものは間違えた問題=理解していない問題ってすぐにわかるじゃない。いや、資格の取得が目的になってしまうのはダメだろう。資格をとることができた時点でおしまいになってしまうとそこで満足してできないところをほったらかしにしてしまうぞ。いいのかそれで、ダメだね。ダメなんだけど今回は強制的に資格を取得しなさいって言われたからもうこのまま突っ走ろう。多分そう間を開けずにLpic2もとることになるだろうからその時はきちんと計画も立てて、記録の付け方についても考えていこう。おれは計画を立てるのが苦手だ。得意だったらこんな状況に陥っていないわけだし。
+だめだ、最近はこういう暗い気持ちに陥りがちになっている。過去を考えても仕方あるまい。これからを考えよう。
+いけいけごーごーじゃーんぷ。">
+  <meta property="og:description" content="学習内容  Lpic6H   Ping-tを頭からやり直す 今までの学習記録をリセットし、頭からやり直す。95%は越しているけれど、自分が想像している以上に間違えてちょっとがっかりする。ぶっ通しでやり続けたことによる集中力の低下でのケアレスミスが多かったけれど、それ本番でもやっちゃうんじゃないの？という恐怖感がちょっとある。嫌だなあ。注意力の低さがこういうところで出るよなあ。inetd周りのこととかあんまり覚えていなかったみたいなのでankiに突っ込んでおいた。これである程度安心できる。ifconfigとrouteとipコマンドの3つが出てきて、それぞれにネットワーク設定の指定があるので混乱してきた。ifconfigは非推奨になってるわけだし消したほうが良いんじゃない？と思うけど。今はただのエイリアスなんじゃないっけ？でも設定スクリプトとかに残っていて読めなかったらこまるよってことなのかな？インフラの設定ももうプログラマブルな感じになってるからあんまり使いそうもないけど…。さっと確認コマンドぐらい打てたほうが良いとは思う。 ぐちゃぐちゃ書かれたこのブログの意義とは それにしてもせっかく学習記録のブログを付けているのにカリキュラムへの愚痴ばっかりが記録されていて、あんまり意義がないなあ。と思ってきた。やったことを細分化できていないし、振り返りができてないんだなあ。今回は実務でやってきたものが中心だったからわからないもの=真面目に勉強する必要がないものという気持ちになってしまっているのが問題なのだろうなあ。できるものはできて当然という気持ちだろうし。正直なところ一番上の学習内容セクションに書いてある時間を記録することがメインだから文章は蛇足なのだけど。
+そもそもここでぐちゃぐちゃ書いているのって人に見せることを目的としていると言うよりは書いてスッキリしたいというのが目的だからなあ。そんなもん公共の場に置くなよ、リソースの無駄遣いだ。でもこうして公的な場所に自分のまとまってない考えを書いておくとそのうちまとまりのある整然とした文章がかけるようになるんじゃないか？と言う風に期待しているんだよ、きっと。
+しかし、偉い人に提出する報告書ぐらいの気持ちで書いていこうかなあ。でもそうすると報告書の作成というタスクをそこそこのプライオリティで書いていかなきゃいけないか。学習の最中にも記録をしていかないとダメになるかも。でも振り返りが楽だよ？それにわからない点がわかるとそこを重点的にやれば良いと理解が進むし…。でも資格学習みたいにテキストがあるものは間違えた問題=理解していない問題ってすぐにわかるじゃない。いや、資格の取得が目的になってしまうのはダメだろう。資格をとることができた時点でおしまいになってしまうとそこで満足してできないところをほったらかしにしてしまうぞ。いいのかそれで、ダメだね。ダメなんだけど今回は強制的に資格を取得しなさいって言われたからもうこのまま突っ走ろう。多分そう間を開けずにLpic2もとることになるだろうからその時はきちんと計画も立てて、記録の付け方についても考えていこう。おれは計画を立てるのが苦手だ。得意だったらこんな状況に陥っていないわけだし。
+だめだ、最近はこういう暗い気持ちに陥りがちになっている。過去を考えても仕方あるまい。これからを考えよう。
+いけいけごーごーじゃーんぷ。">
+  <meta name="twitter:description" content="学習内容  Lpic6H   Ping-tを頭からやり直す 今までの学習記録をリセットし、頭からやり直す。95%は越しているけれど、自分が想像している以上に間違えてちょっとがっかりする。ぶっ通しでやり続けたことによる集中力の低下でのケアレスミスが多かったけれど、それ本番でもやっちゃうんじゃないの？という恐怖感がちょっとある。嫌だなあ。注意力の低さがこういうところで出るよなあ。inetd周りのことと …">
+  <meta name="author" content="Yuta Wada"/>
+  <meta property="og:site_name" content="学習記録" />
+  <meta property="og:url" content="https://wadayt.github.io/studyrecord/post/2019-03-20/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.55.4" />
+
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/custom.css" media="all" />
+
+  <script src="https://wadayt.github.io/studyrecord/js/script.js"></script>
+  <script src="https://wadayt.github.io/studyrecord/js/custom.js"></script>
+  <script defer src="https://wadayt.github.io/studyrecord/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://wadayt.github.io/studyrecord/">学習記録</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="https://wadayt.github.io/studyrecord/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://wadayt.github.io/studyrecord/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://wadayt.github.io/studyrecord/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">2019 03 20</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>March 20, 2019</time></li>
+        <li class="article-meta-categories">
+          <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+            <i class="fas fa-folder"></i>
+            学習
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+            <i class="fas fa-tag"></i>
+            Lpic
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+            <i class="fas fa-tag"></i>
+            資格
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+      
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<ul>
+<li>Lpic6H
+　<br />
+　<br /></li>
+</ul>
+
+<h1 id="ping-tを頭からやり直す">Ping-tを頭からやり直す</h1>
+
+<hr />
+
+<p>今までの学習記録をリセットし、頭からやり直す。95%は越しているけれど、自分が想像している以上に間違えてちょっとがっかりする。ぶっ通しでやり続けたことによる集中力の低下でのケアレスミスが多かったけれど、それ本番でもやっちゃうんじゃないの？という恐怖感がちょっとある。嫌だなあ。注意力の低さがこういうところで出るよなあ。inetd周りのこととかあんまり覚えていなかったみたいなのでankiに突っ込んでおいた。これである程度安心できる。ifconfigとrouteとipコマンドの3つが出てきて、それぞれにネットワーク設定の指定があるので混乱してきた。ifconfigは非推奨になってるわけだし消したほうが良いんじゃない？と思うけど。今はただのエイリアスなんじゃないっけ？でも設定スクリプトとかに残っていて読めなかったらこまるよってことなのかな？インフラの設定ももうプログラマブルな感じになってるからあんまり使いそうもないけど…。さっと確認コマンドぐらい打てたほうが良いとは思う。
+　<br />
+　</p>
+
+<h1 id="ぐちゃぐちゃ書かれたこのブログの意義とは">ぐちゃぐちゃ書かれたこのブログの意義とは</h1>
+
+<hr />
+
+<p>それにしてもせっかく学習記録のブログを付けているのにカリキュラムへの愚痴ばっかりが記録されていて、あんまり意義がないなあ。と思ってきた。やったことを細分化できていないし、振り返りができてないんだなあ。今回は実務でやってきたものが中心だったからわからないもの=真面目に勉強する必要がないものという気持ちになってしまっているのが問題なのだろうなあ。できるものはできて当然という気持ちだろうし。正直なところ一番上の学習内容セクションに書いてある時間を記録することがメインだから文章は蛇足なのだけど。</p>
+
+<p>そもそもここでぐちゃぐちゃ書いているのって人に見せることを目的としていると言うよりは書いてスッキリしたいというのが目的だからなあ。そんなもん公共の場に置くなよ、リソースの無駄遣いだ。でもこうして公的な場所に自分のまとまってない考えを書いておくとそのうちまとまりのある整然とした文章がかけるようになるんじゃないか？と言う風に期待しているんだよ、きっと。</p>
+
+<p>しかし、偉い人に提出する報告書ぐらいの気持ちで書いていこうかなあ。でもそうすると報告書の作成というタスクをそこそこのプライオリティで書いていかなきゃいけないか。学習の最中にも記録をしていかないとダメになるかも。でも振り返りが楽だよ？それにわからない点がわかるとそこを重点的にやれば良いと理解が進むし…。でも資格学習みたいにテキストがあるものは間違えた問題=理解していない問題ってすぐにわかるじゃない。いや、資格の取得が目的になってしまうのはダメだろう。資格をとることができた時点でおしまいになってしまうとそこで満足してできないところをほったらかしにしてしまうぞ。いいのかそれで、ダメだね。ダメなんだけど今回は強制的に資格を取得しなさいって言われたからもうこのまま突っ走ろう。多分そう間を開けずにLpic2もとることになるだろうからその時はきちんと計画も立てて、記録の付け方についても考えていこう。おれは計画を立てるのが苦手だ。得意だったらこんな状況に陥っていないわけだし。</p>
+
+<p>だめだ、最近はこういう暗い気持ちに陥りがちになっている。過去を考えても仕方あるまい。これからを考えよう。</p>
+
+<p>いけいけごーごーじゃーんぷ。</p>
+
+    </article>
+
+    
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+  <li>
+    <div class="fb-share-button" data-href="https://wadayt.github.io/studyrecord/post/2019-03-20/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </li>
+  <li>
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </li>
+  <li>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+  </li>
+</ul>
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://wadayt.github.io/studyrecord/post/2019-03-21/" data-toggle="tooltip" data-placement="top" title="2019 03 21">&lt; Newer</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-19/" data-toggle="tooltip" data-placement="top" title="2019 03 19">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2019 Yuta Wada</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on 学習記録</title>
+    <link>https://wadayt.github.io/studyrecord/tags/aws/</link>
+    <description>Recent content in AWS on 学習記録</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
+    <lastBuildDate>Tue, 09 Apr 2019 18:53:02 +0900</lastBuildDate>
+    
+	<atom:link href="https://wadayt.github.io/studyrecord/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 04 09</title>
+      <link>https://wadayt.github.io/studyrecord/post/2019-04-09/</link>
+      <pubDate>Tue, 09 Apr 2019 18:53:02 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/studyrecord/post/2019-04-09/</guid>
+      <description>学習内容 AWS関連の10Mチュートリアルとかいろいろ 4H ping-t 最強問題集
+AWSでサーバを立てるということがこんなにも簡単にできるとは… 正直びびっている、オンプレミスで手動構築しているインフラエンジニアなんて消滅するね、まじで。
+すごい楽しくて興奮した。
+更新忘れてた 内容無いけど更新だ</description>
+    </item>
+    
+  </channel>
+</rss>

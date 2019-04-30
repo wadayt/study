@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>2019 03 31 - 学習記録</title>
+  <meta property="og:title" content="2019 03 31 - 学習記録" />
+  <meta name="twitter:title" content="2019 03 31 - 学習記録" />
+  <meta name="description" content="学習内容 Ping-t WEB最強問題集 Lpic201 2周目 4H
+ システムの起動 正答率：65% 1H ファイルシステムとデバイス 正答率：63% 1H 高度なストレージ管理 正答率：62% 0.5H ネットワーク構成 正答率：72% 1H システムの保守 正答率：63% 0.5H  システムの起動 知らなかったこと
+ ISOLINUXの概要 PXEブートの概要 PXELINUXの概要 insservとupdate-rc.dコマンド  ISOLINUXについてわかんないのは良いけどPXEブートについてわかんないのはダメじゃない？と思ったので調べた。
+PXELINUXについてどうしても物理メディアからのダウンロードというイメージばっかりが先行してしまっていてダメだな。それしかやってこなかったってのもあるんだけど。
+insservとかupdate-rc.dとかやっぱりだめだ。覚えられん…。
+思いの外正答率は上がらず…。基本的には7~8割は取りたいのだけど…。
+ファイルシステムとデバイス 知らなかったこと
+ xfs関連コマンド * ext関連のブロックについての概要  xfsについては知らなかったと言うよりは基本的にxfs_xxみたいな命名の体系が多いのにxfsrestoreとかxfsdumpとかだけ違うんだよ。(mkfs.xfsは別種のコマンドだから許される気がする)。
+ブロックについての細かいところを覚えてないんだ。
+createとmakeってどう違うのだろうと思って調べる。makeは材料とか素材に手を加えて何かを作る。createは今までになかったものを創造する。なるほどね。1から2がmakeなら0から1がcreateか。
+高度なストレージ管理 知らなかったこと
+ 特筆するものはなし  つまりはわかってるんだけどまんべんなく知識が足りないってことだ。
+ネットワーク構成 知らなかったこと
+ iw,iwonfigを使った無線設定 iwlist arpコマンド  デバイスとインターフェースがごちゃごちゃになってわからん。ping-tもそこに触れているわけではないからここについてはスピードマスター問題集で補完したい。
+arp全然覚えられん。何でこんなにいっぱい出るんだ…。そんなに大事？arpって…。
+あともう設定ファイルを直編集する系は外してくれよ…。それって最新のOSに適応しちゃダメなやつじゃないの。
+システムの保守 知らなかったこと
+ patchコマンド テープ使うコマンド  もう許してくれという感じ。どっちも使う気せんなあ。
+2周目はとても疲れました なんとか２周めも終了。１周めも２周めも間違えたやつは80問。これは本当におちほ広いというか…。こつこつ潰していくしか無いやつ。解説をきちんと読もう。">
+  <meta property="og:description" content="学習内容 Ping-t WEB最強問題集 Lpic201 2周目 4H
+ システムの起動 正答率：65% 1H ファイルシステムとデバイス 正答率：63% 1H 高度なストレージ管理 正答率：62% 0.5H ネットワーク構成 正答率：72% 1H システムの保守 正答率：63% 0.5H  システムの起動 知らなかったこと
+ ISOLINUXの概要 PXEブートの概要 PXELINUXの概要 insservとupdate-rc.dコマンド  ISOLINUXについてわかんないのは良いけどPXEブートについてわかんないのはダメじゃない？と思ったので調べた。
+PXELINUXについてどうしても物理メディアからのダウンロードというイメージばっかりが先行してしまっていてダメだな。それしかやってこなかったってのもあるんだけど。
+insservとかupdate-rc.dとかやっぱりだめだ。覚えられん…。
+思いの外正答率は上がらず…。基本的には7~8割は取りたいのだけど…。
+ファイルシステムとデバイス 知らなかったこと
+ xfs関連コマンド * ext関連のブロックについての概要  xfsについては知らなかったと言うよりは基本的にxfs_xxみたいな命名の体系が多いのにxfsrestoreとかxfsdumpとかだけ違うんだよ。(mkfs.xfsは別種のコマンドだから許される気がする)。
+ブロックについての細かいところを覚えてないんだ。
+createとmakeってどう違うのだろうと思って調べる。makeは材料とか素材に手を加えて何かを作る。createは今までになかったものを創造する。なるほどね。1から2がmakeなら0から1がcreateか。
+高度なストレージ管理 知らなかったこと
+ 特筆するものはなし  つまりはわかってるんだけどまんべんなく知識が足りないってことだ。
+ネットワーク構成 知らなかったこと
+ iw,iwonfigを使った無線設定 iwlist arpコマンド  デバイスとインターフェースがごちゃごちゃになってわからん。ping-tもそこに触れているわけではないからここについてはスピードマスター問題集で補完したい。
+arp全然覚えられん。何でこんなにいっぱい出るんだ…。そんなに大事？arpって…。
+あともう設定ファイルを直編集する系は外してくれよ…。それって最新のOSに適応しちゃダメなやつじゃないの。
+システムの保守 知らなかったこと
+ patchコマンド テープ使うコマンド  もう許してくれという感じ。どっちも使う気せんなあ。
+2周目はとても疲れました なんとか２周めも終了。１周めも２周めも間違えたやつは80問。これは本当におちほ広いというか…。こつこつ潰していくしか無いやつ。解説をきちんと読もう。">
+  <meta name="twitter:description" content="学習内容 Ping-t WEB最強問題集 Lpic201 2周目 4H
+ システムの起動 正答率：65% 1H ファイルシステムとデバイス 正答率：63% 1H 高度なストレージ管理 正答率：62% 0.5H ネットワーク構成 正答率：72% 1H システムの保守 正答率：63% 0.5H  システムの起動 知らなかったこと
+ ISOLINUXの概要 PXEブートの概要 PXELINUX …">
+  <meta name="author" content="Yuta Wada"/>
+  <meta property="og:site_name" content="学習記録" />
+  <meta property="og:url" content="https://wadayt.github.io/studyrecord/post/2019-03-31/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.55.4" />
+
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/custom.css" media="all" />
+
+  <script src="https://wadayt.github.io/studyrecord/js/script.js"></script>
+  <script src="https://wadayt.github.io/studyrecord/js/custom.js"></script>
+  <script defer src="https://wadayt.github.io/studyrecord/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://wadayt.github.io/studyrecord/">学習記録</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="https://wadayt.github.io/studyrecord/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://wadayt.github.io/studyrecord/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://wadayt.github.io/studyrecord/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">2019 03 31</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>March 31, 2019</time></li>
+        <li class="article-meta-categories">
+          <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+            <i class="fas fa-folder"></i>
+            学習
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/lpic/">
+            <i class="fas fa-tag"></i>
+            Lpic
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+            <i class="fas fa-tag"></i>
+            資格
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+      
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Ping-t WEB最強問題集 Lpic201 2周目 4H</p>
+
+<ul>
+<li>システムの起動 正答率：65% 1H</li>
+<li>ファイルシステムとデバイス 正答率：63% 1H</li>
+<li>高度なストレージ管理 正答率：62% 0.5H</li>
+<li>ネットワーク構成 正答率：72% 1H</li>
+<li>システムの保守 正答率：63% 0.5H</li>
+</ul>
+
+<h1 id="システムの起動">システムの起動</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>ISOLINUXの概要</li>
+<li>PXEブートの概要</li>
+<li>PXELINUXの概要</li>
+<li>insservとupdate-rc.dコマンド</li>
+</ul>
+
+<p>ISOLINUXについてわかんないのは良いけどPXEブートについてわかんないのはダメじゃない？と思ったので調べた。</p>
+
+<p>PXELINUXについてどうしても物理メディアからのダウンロードというイメージばっかりが先行してしまっていてダメだな。それしかやってこなかったってのもあるんだけど。</p>
+
+<p>insservとかupdate-rc.dとかやっぱりだめだ。覚えられん…。</p>
+
+<p>思いの外正答率は上がらず…。基本的には7~8割は取りたいのだけど…。</p>
+
+<h1 id="ファイルシステムとデバイス">ファイルシステムとデバイス</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>xfs関連コマンド * ext関連のブロックについての概要</li>
+</ul>
+
+<p>xfsについては知らなかったと言うよりは基本的にxfs_xxみたいな命名の体系が多いのにxfsrestoreとかxfsdumpとかだけ違うんだよ。(mkfs.xfsは別種のコマンドだから許される気がする)。</p>
+
+<p>ブロックについての細かいところを覚えてないんだ。</p>
+
+<p>createとmakeってどう違うのだろうと思って調べる。makeは材料とか素材に手を加えて何かを作る。createは今までになかったものを創造する。なるほどね。1から2がmakeなら0から1がcreateか。</p>
+
+<h1 id="高度なストレージ管理">高度なストレージ管理</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>特筆するものはなし</li>
+</ul>
+
+<p>つまりはわかってるんだけどまんべんなく知識が足りないってことだ。</p>
+
+<h1 id="ネットワーク構成">ネットワーク構成</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>iw,iwonfigを使った無線設定</li>
+<li>iwlist</li>
+<li>arpコマンド</li>
+</ul>
+
+<p>デバイスとインターフェースがごちゃごちゃになってわからん。ping-tもそこに触れているわけではないからここについてはスピードマスター問題集で補完したい。</p>
+
+<p>arp全然覚えられん。何でこんなにいっぱい出るんだ…。そんなに大事？arpって…。</p>
+
+<p>あともう設定ファイルを直編集する系は外してくれよ…。それって最新のOSに適応しちゃダメなやつじゃないの。</p>
+
+<h1 id="システムの保守">システムの保守</h1>
+
+<hr />
+
+<p>知らなかったこと</p>
+
+<ul>
+<li>patchコマンド</li>
+<li>テープ使うコマンド</li>
+</ul>
+
+<p>もう許してくれという感じ。どっちも使う気せんなあ。</p>
+
+<h1 id="2周目はとても疲れました">2周目はとても疲れました</h1>
+
+<hr />
+
+<p>なんとか２周めも終了。１周めも２周めも間違えたやつは80問。これは本当におちほ広いというか…。こつこつ潰していくしか無いやつ。解説をきちんと読もう。</p>
+
+    </article>
+
+    
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+  <li>
+    <div class="fb-share-button" data-href="https://wadayt.github.io/studyrecord/post/2019-03-31/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </li>
+  <li>
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </li>
+  <li>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+  </li>
+</ul>
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://wadayt.github.io/studyrecord/post/2019-03%E3%81%AE%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A/" data-toggle="tooltip" data-placement="top" title="2019 03の振り返り">&lt; Newer</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-30/" data-toggle="tooltip" data-placement="top" title="2019 03 30">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2019 Yuta Wada</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>2019 03 14 - 学習記録</title>
+  <meta property="og:title" content="2019 03 14 - 学習記録" />
+  <meta name="twitter:title" content="2019 03 14 - 学習記録" />
+  <meta name="description" content="学習内容  Linuc学習6H   ひたすらにPing-tをやっていた やたらに疲れた。覚えておきたいものはankiにも入力した。でも入力しただけで満足してやらないかもしれない。覚える過程で入力するという作業が必要だっただけなのかも。
+あんまり学習に気が乗っていなかったsystemdやディスククォータの設定についてはlinucではそこまで深いところやらないみたいでちょっと勉強しただけで大体理解できた。でもパッケージマネージャ系は本当に苦痛でしか無い。特にレッドハット系はとてもつらい。あと、この記録ってvimで書いているくせにvimの基本的なコマンドについて答えられなかったりもしている。ちょっと悲しい。
+それにしても、労働するよりも勉強している方が集中力が必要なせいかとても疲れた。あとping-tのインターフェースがあんまりよくないから疲れる…。ラジオボタンで選択するのは疲れる。テンキーで選択させてくれるだけでも結構楽になると思うのだが。途中からタブレットに切り替えたけれど、ラジオボタンの小ささが変わるわけじゃないからな。
+学習はポモドーロタイマーのおかげでなんとか集中を保てている気がする。突然集中が切れるときもあるのだけれど、それはなんか気持ちの問題と言うよりは体調が悪いってところから来ていると思う。なんか2日ぐらい下血が止まらなかった時が一週間前にあった、そんなの初めてだから本当にびっくりした。3キロぐらい落とせたので正直ちょっと喜んだのだけれど、健康な体がほしい。
+9時になったら酒を飲む 結局酒を飲むことが一番の趣味になってしまっている。9時になれば酒が飲めるぞ！というのが一番のモチベーションかもしれない。安物のスコッチをおまけでついているグラスで一人で飲んでいるのだから客観的に見たらとてつもなく悲壮感漂っている。でもまあ自分が楽しいのだから良いや。他人の評価で生きていくのは辛い。自分で自分を断罪すると無限に落ち込んでいってしまうのでだめだ。 自分の各文章を見ていて思うのはやたらに句読点が多いなあ、ってこと。おじさんがこういう書き方になるみたいでちょっと恥ずかしい。もう若くないんだから若者ぶる必要もないのだけど…。">
+  <meta property="og:description" content="学習内容  Linuc学習6H   ひたすらにPing-tをやっていた やたらに疲れた。覚えておきたいものはankiにも入力した。でも入力しただけで満足してやらないかもしれない。覚える過程で入力するという作業が必要だっただけなのかも。
+あんまり学習に気が乗っていなかったsystemdやディスククォータの設定についてはlinucではそこまで深いところやらないみたいでちょっと勉強しただけで大体理解できた。でもパッケージマネージャ系は本当に苦痛でしか無い。特にレッドハット系はとてもつらい。あと、この記録ってvimで書いているくせにvimの基本的なコマンドについて答えられなかったりもしている。ちょっと悲しい。
+それにしても、労働するよりも勉強している方が集中力が必要なせいかとても疲れた。あとping-tのインターフェースがあんまりよくないから疲れる…。ラジオボタンで選択するのは疲れる。テンキーで選択させてくれるだけでも結構楽になると思うのだが。途中からタブレットに切り替えたけれど、ラジオボタンの小ささが変わるわけじゃないからな。
+学習はポモドーロタイマーのおかげでなんとか集中を保てている気がする。突然集中が切れるときもあるのだけれど、それはなんか気持ちの問題と言うよりは体調が悪いってところから来ていると思う。なんか2日ぐらい下血が止まらなかった時が一週間前にあった、そんなの初めてだから本当にびっくりした。3キロぐらい落とせたので正直ちょっと喜んだのだけれど、健康な体がほしい。
+9時になったら酒を飲む 結局酒を飲むことが一番の趣味になってしまっている。9時になれば酒が飲めるぞ！というのが一番のモチベーションかもしれない。安物のスコッチをおまけでついているグラスで一人で飲んでいるのだから客観的に見たらとてつもなく悲壮感漂っている。でもまあ自分が楽しいのだから良いや。他人の評価で生きていくのは辛い。自分で自分を断罪すると無限に落ち込んでいってしまうのでだめだ。 自分の各文章を見ていて思うのはやたらに句読点が多いなあ、ってこと。おじさんがこういう書き方になるみたいでちょっと恥ずかしい。もう若くないんだから若者ぶる必要もないのだけど…。">
+  <meta name="twitter:description" content="学習内容  Linuc学習6H   ひたすらにPing-tをやっていた やたらに疲れた。覚えておきたいものはankiにも入力した。でも入力しただけで満足してやらないかもしれない。覚える過程で入力するという作業が必要だっただけなのかも。
+あんまり学習に気が乗っていなかったsystemdやディスククォータの設定についてはlinucではそこまで深いところやらないみたいでちょっと勉強しただけで大体理解でき …">
+  <meta name="author" content="Yuta Wada"/>
+  <meta property="og:site_name" content="学習記録" />
+  <meta property="og:url" content="https://wadayt.github.io/studyrecord/post/2019-03-14/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.55.4" />
+
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/style.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="https://wadayt.github.io/studyrecord/css/custom.css" media="all" />
+
+  <script src="https://wadayt.github.io/studyrecord/js/script.js"></script>
+  <script src="https://wadayt.github.io/studyrecord/js/custom.js"></script>
+  <script defer src="https://wadayt.github.io/studyrecord/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://wadayt.github.io/studyrecord/">学習記録</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="https://wadayt.github.io/studyrecord/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="https://wadayt.github.io/studyrecord/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="https://wadayt.github.io/studyrecord/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">2019 03 14</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>March 14, 2019</time></li>
+        <li class="article-meta-categories">
+          <a href="https://wadayt.github.io/studyrecord/categories/%E5%AD%A6%E7%BF%92/">
+            <i class="fas fa-folder"></i>
+            学習
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/linuc/">
+            <i class="fas fa-tag"></i>
+            Linuc
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="https://wadayt.github.io/studyrecord/tags/%E8%B3%87%E6%A0%BC/">
+            <i class="fas fa-tag"></i>
+            資格
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+      
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<ul>
+<li>Linuc学習6H
+<br />
+<br />
+<br /></li>
+</ul>
+
+<h1 id="ひたすらにping-tをやっていた">ひたすらにPing-tをやっていた</h1>
+
+<hr />
+
+<p>やたらに疲れた。覚えておきたいものはankiにも入力した。でも入力しただけで満足してやらないかもしれない。覚える過程で入力するという作業が必要だっただけなのかも。</p>
+
+<p>あんまり学習に気が乗っていなかったsystemdやディスククォータの設定についてはlinucではそこまで深いところやらないみたいでちょっと勉強しただけで大体理解できた。でもパッケージマネージャ系は本当に苦痛でしか無い。特にレッドハット系はとてもつらい。あと、この記録ってvimで書いているくせにvimの基本的なコマンドについて答えられなかったりもしている。ちょっと悲しい。</p>
+
+<p>それにしても、労働するよりも勉強している方が集中力が必要なせいかとても疲れた。あとping-tのインターフェースがあんまりよくないから疲れる…。ラジオボタンで選択するのは疲れる。テンキーで選択させてくれるだけでも結構楽になると思うのだが。途中からタブレットに切り替えたけれど、ラジオボタンの小ささが変わるわけじゃないからな。</p>
+
+<p>学習はポモドーロタイマーのおかげでなんとか集中を保てている気がする。突然集中が切れるときもあるのだけれど、それはなんか気持ちの問題と言うよりは体調が悪いってところから来ていると思う。なんか2日ぐらい下血が止まらなかった時が一週間前にあった、そんなの初めてだから本当にびっくりした。3キロぐらい落とせたので正直ちょっと喜んだのだけれど、健康な体がほしい。<br />
+　<br />
+　</p>
+
+<h1 id="9時になったら酒を飲む">9時になったら酒を飲む</h1>
+
+<hr />
+
+<p>結局酒を飲むことが一番の趣味になってしまっている。9時になれば酒が飲めるぞ！というのが一番のモチベーションかもしれない。安物のスコッチをおまけでついているグラスで一人で飲んでいるのだから客観的に見たらとてつもなく悲壮感漂っている。でもまあ自分が楽しいのだから良いや。他人の評価で生きていくのは辛い。自分で自分を断罪すると無限に落ち込んでいってしまうのでだめだ。
+　<br />
+　</p>
+
+<hr />
+
+<p>自分の各文章を見ていて思うのはやたらに句読点が多いなあ、ってこと。おじさんがこういう書き方になるみたいでちょっと恥ずかしい。もう若くないんだから若者ぶる必要もないのだけど…。</p>
+
+    </article>
+
+    
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+  <li>
+    <div class="fb-share-button" data-href="https://wadayt.github.io/studyrecord/post/2019-03-14/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </li>
+  <li>
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </li>
+  <li>
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+    <script>!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+  </li>
+</ul>
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://wadayt.github.io/studyrecord/post/2019-03-15/" data-toggle="tooltip" data-placement="top" title="2019 03 15">&lt; Newer</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://wadayt.github.io/studyrecord/post/2019-03-13/" data-toggle="tooltip" data-placement="top" title="2019 03 13">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2019 Yuta Wada</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="https://wadayt.github.io/studyrecord/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+</body>
+</html>

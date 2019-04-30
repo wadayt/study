@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vagrant on 学習記録</title>
+    <link>https://wadayt.github.io/studyrecord/tags/vagrant/</link>
+    <description>Recent content in Vagrant on 学習記録</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
+    <lastBuildDate>Mon, 25 Mar 2019 20:53:16 +0900</lastBuildDate>
+    
+	<atom:link href="https://wadayt.github.io/studyrecord/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 03 25</title>
+      <link>https://wadayt.github.io/studyrecord/post/2019-03-25/</link>
+      <pubDate>Mon, 25 Mar 2019 20:53:16 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/studyrecord/post/2019-03-25/</guid>
+      <description>学習内容  Lpic2向けに仮想環境作成2H   いつもコマンドを忘れる 　Lpic1取得時の反省点である、RHEL互換の環境がないから試せないし試さないというダメな言い訳をして試さないというダメなことからは卒業することにした。
+　つまりは仮想環境を作成してそこの中で色々作業するんだ！って思ってまずは簡単なdockerから試してみた、いつもやり方を忘れるんだよなあ。普段使わないから。
+　試してみたのだけれど、思ったよりもなんにもできないコンテナだった。manとか基本的なコマンドもなかったのでとてもつらく、これは使い物にならないな。と思ったのでおとなしくvagrantによる仮想マシン導入に切り替えた。
+　でもこれも決して全部入りってわけじゃないのね…。まあ仮想マシンのイメージをどれにするかによるのだろうけど…。これならコンテナでそれぞれのサーバ入れたほうが良かったかなあ…。でもcentosの基本的な挙動も欲しかったんだよ…。それならcentosのコンテナで…。まあ考えても仕方ない。足りないものは後から入れれば良いんだから。 住民票を取れなかった 　17:01分に市役所に到着したのだけれど、なんとも一分前に受付を締め切ったと言われてしまい、めちゃくちゃしょんぼり。決まりなら仕方がない、とは思っているんだけど結構ショック。はや歩きで行けば間に合ったのかも。</description>
+    </item>
+    
+  </channel>
+</rss>
