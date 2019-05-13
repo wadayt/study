@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Sun, 12 May 2019 18:45:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 07:50:41 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 05 13</title>
+      <link>https://wadayt.github.io/study/post/2019-05-13/</link>
+      <pubDate>Mon, 13 May 2019 07:50:41 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-13/</guid>
+      <description>AWS勉強しないとね Lpic2をやっとこさとれたので次はAWSかあと思いながら生きている。
+とりあえずクラウドプランクティショナーを取りに行ってみようかなと思う。
+入門用の資格でもあるので、とりあえずは取っておく。面倒くさいが。会社のためにもなる。
+これから頑張ります。
+仕事もうよくわからん 何をすればいいのかもうわからなくなってきた。
+五月病丸出し。
+正直怒られるまではこのままでいたい。</description>
+    </item>
     
     <item>
       <title>2019 05 12</title>
