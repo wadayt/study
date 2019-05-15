@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研修 on 学習記録</title>
+    <link>https://wadayt.github.io/study/tags/%E7%A0%94%E4%BF%AE/</link>
+    <description>Recent content in 研修 on 学習記録</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
+    <lastBuildDate>Wed, 15 May 2019 07:44:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://wadayt.github.io/study/tags/%E7%A0%94%E4%BF%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 05 15</title>
+      <link>https://wadayt.github.io/study/post/2019-05-15/</link>
+      <pubDate>Wed, 15 May 2019 07:44:30 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-15/</guid>
+      <description>社内研修はつまらない2 フッ素害悪説とかありがちなGHQによる日本洗脳の陰謀論とかドアを開けて女性を先に部屋の中に入れるのは部屋の中にいる敵を確認させるためとかめちゃくちゃな暴言・珍説を吐きまくられて朝からかなり気持ちが落ちる。
+さらにそれが表層にとらわれずに根本を調べようという主張とセットになっているのだから驚きである。ネットで真実みたいなレベルと同じ。
+これを見せてどんなことを学習させようと思っているのか聞いてみよう。
+AWSを学習するのだ ずっと言っているけれど、なかなか始めようとしない。ファーストステップをどうしようか考えているというのもあるのだけれど。
+結局無料の公式e-learning動画をはじめにやることにした。
+クラウドプラクティショナー(AWS公式)
+実は技術書展でAWS資格に関する本を購入しているということもあり、読んでみようかなあと思っている。
+お休みの日になるかなあ。
+今日は定例会 なので朝のうちの更新</description>
+    </item>
+    
+    <item>
+      <title>2019 05 14</title>
+      <link>https://wadayt.github.io/study/post/2019-05-14/</link>
+      <pubDate>Tue, 14 May 2019 07:40:37 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-14/</guid>
+      <description>社内研修はつまらない 結局のところ私はSESに属している一派遣社員でしかなく、改正派遣法により派遣労働者に対する教育の義務が設けられたとか何とかでとてつもなくつまらないe-learningをやることを強いられている。
+しかもそのe-learningは粗悪なAIか無限猿が作ったんじゃないのかと思いたくなるぐらいにはクソインターフェースのクソ内容なのでとてつもなく困る。なんでアホからものを教わらなくてはいけないんだろうという気持ちになる。
+動画学習は連続再生ができず、そのうえ全体に対する進捗状況が全く分からない。メモが取れるようになっているのに動画は全画面じゃないとだめ。
+学習カテゴリがPDFとなっているのにスライドが始まる。
+外部からただ持ってきただけの問題集はサイトのインターフェースと合致していないため、本来的にはコンテンツ内が完了してからサイトのnextが実行されるべきだが、サイトのnextを進めるだけで問題なし。
+唯一中身があるコンテンツがその外部から持ってきたものなので悲しい。でも正直マナーとかPDCAとかそういうくだらないものに時間をかけたくないのでインターフェースを悪用する。
+研修コンテンツ内に広告が入っていて、それを飛ばすと修了したことにならず、動画内で番外編となっている女性用のヘアセットの動画も見なくてはならない。ｷｴｰｯ！そんなの見てどうするんじゃあ！
+スマートフォンのインターフェースはそれなりなのだがPC版がひどい、進捗が全く分からん。
+というかそもそも与えられた研修課題にフォーカスした内容のページをログイン後のページのトップにしろよ、アホか。中身のない研修動画なんて見たがると思っているのでしょうか？
+完了済みと受講中でソートがなんでできねえんだよ！
+内容か外側どちらかでいいからちゃんとしてほしい。現状は両方ともうんこなので本当にチンパンジーが作っているとしか思えない。</description>
+    </item>
+    
+  </channel>
+</rss>
