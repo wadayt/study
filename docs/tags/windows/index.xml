@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Thu, 02 May 2019 07:20:54 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 07:49:07 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 05 17</title>
+      <link>https://wadayt.github.io/study/post/2019-05-17/</link>
+      <pubDate>Fri, 17 May 2019 07:49:07 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-17/</guid>
+      <description>Windows10すごいんじゃないか？ 日々の業務を行っていく中で、クリップボード監視ソフトがないとしんどいかもしれないなあと思っていたのだけれど、なんと標準で入っているのである。
+Win-vでクリップボード監視ソフトが起動する。すっごーい！
+サードパーティー製の奴よりもやっぱり標準機能がうれしい。なんか結構感動しているなあ。Windowsでここまで快適になるとは…。
+で、仕事でも使えるぞ！と思ったらなんと社用のPCでは実行できませんでした。
+やっとAWSの動画を見始める ファーストステップが一番大変なので踏み出せたことそのものがうれしい。
+しかも動画はプラグインを入れているので倍速で再生することもできる。でも、たぶんそのせいですべて見終えても修了したことにならない。結構困る。
+今のところはちょっとだけ触ったことがあるから知ったようなことしか教わってない。でも前ちらっとやったときは機械音声だったのに人間になっているのがうれしい。
+やっと研修動画終わる 疲れました。</description>
+    </item>
     
     <item>
       <title>2019 05 02</title>

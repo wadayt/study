@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Thu, 16 May 2019 08:05:45 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 07:49:07 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>AWS</title>
       <link>https://wadayt.github.io/study/tags/aws/</link>
-      <pubDate>Thu, 16 May 2019 08:05:45 +0900</pubDate>
+      <pubDate>Fri, 17 May 2019 07:49:07 +0900</pubDate>
       
       <guid>https://wadayt.github.io/study/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://wadayt.github.io/study/tags/windows/</link>
+      <pubDate>Fri, 17 May 2019 07:49:07 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/tags/windows/</guid>
       <description></description>
     </item>
     
@@ -72,15 +81,6 @@
       <pubDate>Tue, 07 May 2019 07:57:09 +0900</pubDate>
       
       <guid>https://wadayt.github.io/study/tags/%E8%A8%80%E3%81%84%E8%A8%B3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>https://wadayt.github.io/study/tags/windows/</link>
-      <pubDate>Thu, 02 May 2019 07:20:54 +0900</pubDate>
-      
-      <guid>https://wadayt.github.io/study/tags/windows/</guid>
       <description></description>
     </item>
     
