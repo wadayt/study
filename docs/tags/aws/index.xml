@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Mon, 20 May 2019 07:52:28 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 08:03:09 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 05 21</title>
+      <link>https://wadayt.github.io/study/post/2019-05-21/</link>
+      <pubDate>Tue, 21 May 2019 08:03:09 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-21/</guid>
+      <description>雨が降っている 仕方がないのでカフェに入ってこれを書いているのだけれど、禁煙席よりも喫煙席のほうが多く、仕切りの上のほうが空いているのでちっとも分煙ができていない。というかこんなに喫煙者っていたのか…。
+お金払って煙を吸わされるのは嫌だなと思う。
+AWS研修動画は結局iPhoneで見ることにした PCで見たらメモとか取れるぞと思ったのだけれどあんまりそういうことをしていないしもう通勤途中に見ればいいやという気持ちになってきた。
+通信料とかいろいろ問題があるといえばあるのだが。
+しかしそうなると業務開始までの一時間ぐらいの時間帯を何に使うのだ？ということになる。
+udemyの講座を使うのが一番よさそう。とりあえず検討してみよう。
+AWS学習の0→1をサポートする講座「手を動かしながら2週間で学ぶ AWS 基本から応用まで」をUdemyでリリースしました
+これだけでok！ AWS 認定ソリューションアーキテクト – アソシエイト試験突破講座（初心者向け20時間完全コース）
+上はクーポンが使えるし、いろいろなページでおすすめされている。下は検索したら出てきた。結構サイト上での評判は上々だ。でもこのUdemyによくあるこの価格で買えるのはあとちょっと！っていうのが表示されていて焦る。
+購入しても良いのだけれど今日は財布を忘れたので購入不可能である。
+今回はクラウドプランクティショナーをとる予定なのでいったん見送る。今度安くなっていたら買おう。</description>
+    </item>
     
     <item>
       <title>2019 05 20</title>
