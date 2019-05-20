@@ -3,30 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wadayt.github.io/study/post/2019-05-19/</loc>
-    <lastmod>2019-05-19T17:04:10+09:00</lastmod>
+    <loc>https://wadayt.github.io/study/post/2019-05-20/</loc>
+    <lastmod>2019-05-20T07:52:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/tags/aws/</loc>
+    <lastmod>2019-05-20T07:52:28+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wadayt.github.io/study/post/</loc>
-    <lastmod>2019-05-19T17:04:10+09:00</lastmod>
+    <lastmod>2019-05-20T07:52:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wadayt.github.io/study/tags/</loc>
-    <lastmod>2019-05-19T17:04:10+09:00</lastmod>
+    <lastmod>2019-05-20T07:52:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wadayt.github.io/study/tags/%E4%BC%91%E6%97%A5/</loc>
-    <lastmod>2019-05-19T17:04:10+09:00</lastmod>
+    <loc>https://wadayt.github.io/study/tags/vim/</loc>
+    <lastmod>2019-05-20T07:52:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wadayt.github.io/study/</loc>
+    <lastmod>2019-05-20T07:52:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/post/2019-05-19/</loc>
+    <lastmod>2019-05-19T17:04:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/tags/%E4%BC%91%E6%97%A5/</loc>
     <lastmod>2019-05-19T17:04:10+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -40,12 +57,6 @@
   <url>
     <loc>https://wadayt.github.io/study/post/2019-05-18/</loc>
     <lastmod>2019-05-18T09:25:15+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wadayt.github.io/study/tags/aws/</loc>
-    <lastmod>2019-05-18T09:25:15+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -195,13 +206,13 @@
   </url>
   
   <url>
-    <loc>https://wadayt.github.io/study/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
+    <loc>https://wadayt.github.io/study/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
     <lastmod>2019-04-14T12:23:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wadayt.github.io/study/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
+    <loc>https://wadayt.github.io/study/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
     <lastmod>2019-04-14T12:23:23+09:00</lastmod>
     <priority>0</priority>
   </url>

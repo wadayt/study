@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Sun, 19 May 2019 17:04:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 07:52:28 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 05 20</title>
+      <link>https://wadayt.github.io/study/post/2019-05-20/</link>
+      <pubDate>Mon, 20 May 2019 07:52:28 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-20/</guid>
+      <description>vimを使えるようになろう 一応これもvscodevimを使用して書いているのだけれど、あんまり使いこなせている感じがしない。
+ホームポジションから手を離さないで入力ができることが一番うれしいことだ。
+職場でも同様の環境になっている。今まではサクラエディタとかの旧式のエディタを使用していたのでかなりの進歩。
+今までの環境がプアすぎてvimは普段使いするものとしてしか使っていなかったため、本格的に学習する気になっていなかった。
+これからはもっと本気でvim使っていこう。
+AWS学習中 動画学習の継続。
+動画中の音声は字幕で出てくるのだが、動画中の文字は英語のままなのでいまいちわかりづらい。
+あとは出てくる単語のすべてを理解しているわけでもないので、そこが一番つらいかな…。
+それでもデモンストレーションがあるのはとても分かりやすいし、そこがこの動画学習の一番のポイントだろうなあ。
+スクリーンショット機能が強化されていることに気づいた Win-prtscで連番でスクリーンショットとれるのね。やっぱりWindows良くなってる。win7使ってる人絶対win10のほうがいいぜ。
+知らない機能がどんどん増えているなあ。動画もキャプチャできるみたいだけれどデスクトップ全体はできないみたいだからちょっといまいちかも。</description>
+    </item>
     
     <item>
       <title>2019 05 19</title>
