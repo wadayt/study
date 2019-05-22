@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Tue, 21 May 2019 08:03:09 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2019 08:54:43 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 05 22</title>
+      <link>https://wadayt.github.io/study/post/2019-05-22/</link>
+      <pubDate>Wed, 22 May 2019 08:54:43 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-22/</guid>
+      <description>クラウドプランクティショナーじゃない クラウドプラクティショナーだね、一人でやっていると意外と気が付かない。人前で結構発音してしまっていたような気がするので恥ずかしい😭。
+AWS クラウドプラクティショナーはAWSクラウド練習生みたいな意味っぽい。
+あと、仮想キーボードから絵文字入れられるんだね、そしてvscodeで表示もできるのだね。すっごーい！
+おなかが痛い これもトイレの中で書いているのだけれど、昨日激辛の麻婆豆腐を食べたせいでおなかは痛いし、肛門は痛いしで最悪だ。
+結局書籍に頼ることにした 動画学習を考えたのだけれど、お金を出してくれるというし、kindleで書籍を購入した。
+まだ読んでいないけれど。
+Powershell勉強しようかな たぶんすぐに要らなくなるけれど</description>
+    </item>
     
     <item>
       <title>2019 05 21</title>
@@ -28,7 +43,7 @@ AWS学習の0→1をサポートする講座「手を動かしながら2週間�
 これだけでok！ AWS 認定ソリューションアーキテクト – アソシエイト試験突破講座（初心者向け20時間完全コース）
 上はクーポンが使えるし、いろいろなページでおすすめされている。下は検索したら出てきた。結構サイト上での評判は上々だ。でもこのUdemyによくあるこの価格で買えるのはあとちょっと！っていうのが表示されていて焦る。
 購入しても良いのだけれど今日は財布を忘れたので購入不可能である。
-今回はクラウドプランクティショナーをとる予定なのでいったん見送る。今度安くなっていたら買おう。</description>
+今回はクラウドプラクティショナーをとる予定なのでいったん見送る。今度安くなっていたら買おう。</description>
     </item>
     
     <item>
@@ -170,7 +185,7 @@ AWSを学習するのだ ずっと言っているけれど、なかなか始め�
       
       <guid>https://wadayt.github.io/study/post/2019-05-13/</guid>
       <description>AWS勉強しないとね Lpic2をやっとこさとれたので次はAWSかあと思いながら生きている。
-とりあえずクラウドプランクティショナーを取りに行ってみようかなと思う。
+とりあえずクラウドプラクティショナーを取りに行ってみようかなと思う。
 入門用の資格でもあるので、とりあえずは取っておく。面倒くさいが。会社のためにもなる。
 これから頑張ります。
 仕事もうよくわからん 何をすればいいのかもうわからなくなってきた。
