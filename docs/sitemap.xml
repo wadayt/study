@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wadayt.github.io/study/post/2019-05-26/</loc>
+    <lastmod>2019-05-26T17:41:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/post/</loc>
+    <lastmod>2019-05-26T17:41:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/</loc>
+    <lastmod>2019-05-26T17:41:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://wadayt.github.io/study/post/2019-05-25/</loc>
     <lastmod>2019-05-25T08:28:25+09:00</lastmod>
   </url>
@@ -15,12 +32,6 @@
   
   <url>
     <loc>https://wadayt.github.io/study/tags/linux/</loc>
-    <lastmod>2019-05-25T08:28:25+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wadayt.github.io/study/post/</loc>
     <lastmod>2019-05-25T08:28:25+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -39,12 +50,6 @@
   
   <url>
     <loc>https://wadayt.github.io/study/tags/%E5%8B%89%E5%BC%B7%E4%BC%9A/</loc>
-    <lastmod>2019-05-25T08:28:25+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wadayt.github.io/study/</loc>
     <lastmod>2019-05-25T08:28:25+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -249,13 +254,13 @@
   </url>
   
   <url>
-    <loc>https://wadayt.github.io/study/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
+    <loc>https://wadayt.github.io/study/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
     <lastmod>2019-04-14T12:23:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wadayt.github.io/study/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
+    <loc>https://wadayt.github.io/study/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</loc>
     <lastmod>2019-04-14T12:23:23+09:00</lastmod>
     <priority>0</priority>
   </url>
