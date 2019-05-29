@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Tue, 28 May 2019 12:48:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2019 07:50:32 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 05 29</title>
+      <link>https://wadayt.github.io/study/post/2019-05-29/</link>
+      <pubDate>Wed, 29 May 2019 07:50:32 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-29/</guid>
+      <description>雨が降っている 仕方なくファーストキッチンに入る。コーヒーは割高でぬるくて味が薄い。
+でも、プロントより圧倒的に快適である。目の前のおじさんが始終鼻くそほじってるのを除けば。
+AWS学習もかねてリモートでwindows操作できないものかを確認してみる その過程でスクリプトも学べたらなと思う。
+Windows server 2012環境でなんとかpowershellでリモートアクセスしようとしているのだけれどうまくいかない。
+インターネット上の手順も結構試しているのだけれどだめだ。つらい。
+仕方ないのでいったん削除してserver 2016を再度立ててみよう。
+セキュリティグループに設定してもだめだ。なんだろう？リモートからループバックでは入れるからネットワークには間違いないのだけれど。
+ファイアウォールの設定をちゃんとやればいいのかなあ。
+不安しかない 引継ぎが適当すぎてビビる。
+情熱を感じないし、どこかでミスが起こるだろうな。
+ああ、もういやだ。</description>
+    </item>
     
     <item>
       <title>2019 05 28</title>
