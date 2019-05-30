@@ -45,6 +45,63 @@
   <div class="main" role="main">
     <section class="list taxonomy-list">
       <article class="article">
+        <a href="https://wadayt.github.io/study/post/2019-05-30/" class="article-titles">
+          <h2 class="article-title">2019 05 30</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>May 30, 2019</time></li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/study/tags/powershell/">
+              <i class="fas fa-tag"></i>
+              PowerShell
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/study/tags/aws/">
+              <i class="fas fa-tag"></i>
+              AWS
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="やっとつながった">やっとつながった</h1>
+
+<hr />
+
+<p>何とかAWS上のWindowsServer2016にPowerShellでつながりました。疲れた。</p>
+
+<ul>
+<li>サーバ側
+
+<ul>
+<li>セキュリティグループのinboundに5985設定</li>
+<li>Enable-PSRemoting -force</li>
+<li>Set-NetFirewallRule -Name &ldquo;WINRM-HTTP-In-TCP-PUBLIC&rdquo; -RemoteAddress Any</li>
+</ul></li>
+<li>クライアント側
+
+<ul>
+<li>Set-Item WSMan:\localhost\Client\TrustedHosts -Value &ldquo;*&rdquo;</li>
+<li>Enter-PSSession -ComputerName (ホスト名) -Credential （ユーザ名）</li>
+</ul></li>
+</ul>
+
+<p>ファイアウォール設定が本当に必要なのかよくわからん。がちゃがちゃやってたらできるようになっていたというのが本当のところ。</p>
+
+<p>最初にEnable-PSRemoting -forceをしなかったんじゃないのか？というの疑いがある。</p>
+
+<p>また最初から作り直してやってもそんなに手間じゃないのでやろうか。</p>
+
+<p>やっぱりファイアウォールの設定は必要みたい。この設定方法がベストなのかは知らん。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/study/post/2019-05-30/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
         <a href="https://wadayt.github.io/study/post/2019-05-29/" class="article-titles">
           <h2 class="article-title">2019 05 29</h2>
           
@@ -106,6 +163,18 @@
 <p>情熱を感じないし、どこかでミスが起こるだろうな。</p>
 
 <p>ああ、もういやだ。</p>
+
+<h1 id="腹立たしい飲み会">腹立たしい飲み会</h1>
+
+<hr />
+
+<p>こういうところで書いても詮無き事なんだけど、今まで会社の飲み会でプライベートについて突っ込んだこと聞かれたことがなかったし、一発芸を求められたこともなかったのでとてつもなく不愉快になった。</p>
+
+<p>おれはそういうの本当に大嫌いで、なんでただの職場の同僚が人生に立ち入ってくるのか結構疑問に思ってしまうし、一発芸なんて絶対にやりたくない。</p>
+
+<p>今日本当に自分のキャリアがステップバックしたんだなと思った。きっつ。</p>
+
+<p>というか何なんだよこの現場は！マジで価値がねえ！イライラする！</p>
 
         </div>
         <div class="article-readmore"><a href="https://wadayt.github.io/study/post/2019-05-29/">Read more...</a></div>

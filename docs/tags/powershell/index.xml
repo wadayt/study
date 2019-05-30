@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Wed, 29 May 2019 07:50:32 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 08:01:19 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 05 30</title>
+      <link>https://wadayt.github.io/study/post/2019-05-30/</link>
+      <pubDate>Thu, 30 May 2019 08:01:19 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-05-30/</guid>
+      <description>やっとつながった 何とかAWS上のWindowsServer2016にPowerShellでつながりました。疲れた。
+ サーバ側  セキュリティグループのinboundに5985設定 Enable-PSRemoting -force Set-NetFirewallRule -Name &amp;ldquo;WINRM-HTTP-In-TCP-PUBLIC&amp;rdquo; -RemoteAddress Any  クライアント側  Set-Item WSMan:\localhost\Client\TrustedHosts -Value &amp;ldquo;*&amp;rdquo; Enter-PSSession -ComputerName (ホスト名) -Credential （ユーザ名）   ファイアウォール設定が本当に必要なのかよくわからん。がちゃがちゃやってたらできるようになっていたというのが本当のところ。
+最初にEnable-PSRemoting -forceをしなかったんじゃないのか？というの疑いがある。
+また最初から作り直してやってもそんなに手間じゃないのでやろうか。
+やっぱりファイアウォールの設定は必要みたい。この設定方法がベストなのかは知らん。</description>
+    </item>
     
     <item>
       <title>2019 05 29</title>
@@ -28,7 +41,11 @@ Windows server 2012環境でなんとかpowershellでリモートアクセスし
 ファイアウォールの設定をちゃんとやればいいのかなあ。
 不安しかない 引継ぎが適当すぎてビビる。
 情熱を感じないし、どこかでミスが起こるだろうな。
-ああ、もういやだ。</description>
+ああ、もういやだ。
+腹立たしい飲み会 こういうところで書いても詮無き事なんだけど、今まで会社の飲み会でプライベートについて突っ込んだこと聞かれたことがなかったし、一発芸を求められたこともなかったのでとてつもなく不愉快になった。
+おれはそういうの本当に大嫌いで、なんでただの職場の同僚が人生に立ち入ってくるのか結構疑問に思ってしまうし、一発芸なんて絶対にやりたくない。
+今日本当に自分のキャリアがステップバックしたんだなと思った。きっつ。
+というか何なんだよこの現場は！マジで価値がねえ！イライラする！</description>
     </item>
     
   </channel>
