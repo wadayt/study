@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Mon, 03 Jun 2019 08:03:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2019 08:05:03 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 06 04</title>
+      <link>https://wadayt.github.io/study/post/2019-06-04/</link>
+      <pubDate>Tue, 04 Jun 2019 08:05:03 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-06-04/</guid>
+      <description>クラウドプラクティショナーの模擬試験の受け方が分からん 結構困ってます。なんだかなあ。
+英語だけれどいろいろkindleアンリミテッドで問題集があることに気づいたので頑張ってやってみようかなという気持ち。
+今まではびくびくしながらEC2を使っていたのだけれど、もう一つのインスタンスを立ち上げっぱなしにすることにした。どうせ無料枠内に収まるだろうし、少しはみ出たところでダメージそんなにないし。
+とりあえず実際に運用するのが一番良いってことに気づいたのでいろいろやっていこうと思う。
+エアロバイクを漕ぎ始める 家の片隅でほこりをかぶっていたエアロバイクを部屋の真ん中に出して使っていくことにした。
+ストレス解消とかになればいいのだけれど。</description>
+    </item>
     
     <item>
       <title>2019 06 02</title>
