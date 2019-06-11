@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 20:16:17 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 07:49:45 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows</title>
+      <link>https://wadayt.github.io/study/tags/windows/</link>
+      <pubDate>Tue, 11 Jun 2019 07:49:45 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>タスク管理</title>
+      <link>https://wadayt.github.io/study/tags/%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Tue, 11 Jun 2019 07:49:45 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/tags/%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>仕事</title>
+      <link>https://wadayt.github.io/study/tags/%E4%BB%95%E4%BA%8B/</link>
+      <pubDate>Tue, 11 Jun 2019 07:49:45 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/tags/%E4%BB%95%E4%BA%8B/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ガルパ</title>
@@ -81,15 +108,6 @@
       <pubDate>Thu, 30 May 2019 08:01:19 +0900</pubDate>
       
       <guid>https://wadayt.github.io/study/tags/powershell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>https://wadayt.github.io/study/tags/windows/</link>
-      <pubDate>Wed, 29 May 2019 07:50:32 +0900</pubDate>
-      
-      <guid>https://wadayt.github.io/study/tags/windows/</guid>
       <description></description>
     </item>
     

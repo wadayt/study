@@ -3,30 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wadayt.github.io/study/post/2019-06-10/</loc>
-    <lastmod>2019-06-10T20:16:17+09:00</lastmod>
+    <loc>https://wadayt.github.io/study/post/2019-06-11/</loc>
+    <lastmod>2019-06-11T07:49:45+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wadayt.github.io/study/post/</loc>
-    <lastmod>2019-06-10T20:16:17+09:00</lastmod>
+    <lastmod>2019-06-11T07:49:45+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wadayt.github.io/study/tags/</loc>
-    <lastmod>2019-06-10T20:16:17+09:00</lastmod>
+    <lastmod>2019-06-11T07:49:45+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wadayt.github.io/study/tags/%E3%82%AC%E3%83%AB%E3%83%91/</loc>
-    <lastmod>2019-06-10T20:16:17+09:00</lastmod>
+    <loc>https://wadayt.github.io/study/tags/windows/</loc>
+    <lastmod>2019-06-11T07:49:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/tags/%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2019-06-11T07:49:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/tags/%E4%BB%95%E4%BA%8B/</loc>
+    <lastmod>2019-06-11T07:49:45+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wadayt.github.io/study/</loc>
+    <lastmod>2019-06-11T07:49:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/post/2019-06-10/</loc>
+    <lastmod>2019-06-10T20:16:17+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wadayt.github.io/study/tags/%E3%82%AC%E3%83%AB%E3%83%91/</loc>
     <lastmod>2019-06-10T20:16:17+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -136,12 +159,6 @@
   <url>
     <loc>https://wadayt.github.io/study/post/2019-05-29/</loc>
     <lastmod>2019-05-29T07:50:32+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wadayt.github.io/study/tags/windows/</loc>
-    <lastmod>2019-05-29T07:50:32+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
