@@ -45,6 +45,137 @@
   <div class="main" role="main">
     <section class="list section-list">
       <article class="article">
+        <a href="https://wadayt.github.io/study/post/2019-03-29/" class="article-titles">
+          <h2 class="article-title">2019 03 29</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>March 29, 2019</time></li>
+          <li class="article-meta-categories">
+            <a href="https://wadayt.github.io/study/categories/%E5%AD%A6%E7%BF%92/">
+              <i class="fas fa-folder"></i>
+              学習
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/study/tags/lpic/">
+              <i class="fas fa-tag"></i>
+              Lpic
+            </a>&nbsp;
+          </li>
+          <li class="article-meta-tags">
+            <a href="https://wadayt.github.io/study/tags/%E8%B3%87%E6%A0%BC/">
+              <i class="fas fa-tag"></i>
+              資格
+            </a>&nbsp;
+          </li>
+        </ul>
+        <div class="article-content">
+          
+
+<h1 id="学習内容">学習内容</h1>
+
+<hr />
+
+<p>Lpic201 ping-t最強web問題集 5H</p>
+
+<ul>
+<li><p>高度なストレージ管理 3.5H</p>
+
+<ul>
+<li>RAIDの構成(23) 正答率：87% 2H</li>
+<li>記憶装置へのアクセス方法の調整(38) 正答率：55% 1H</li>
+<li>論理ボリュームマネージャ(31) 正答率：71% 0.5H</li>
+</ul></li>
+
+<li><p>ネットワーク構成 1.5H</p>
+
+<ul>
+<li>基本的なネットワーク構成(36)正答率：33% 0.5H</li>
+<li>高度なネットワーク構成とトラブルシュート(73) 正答率：70% 1H</li>
+</ul></li>
+</ul>
+
+<h1 id="高度なストレージ管理">高度なストレージ管理</h1>
+
+<hr />
+
+<p>知らなかったもの</p>
+
+<ul>
+<li>mdadmコマンド</li>
+<li>RAIDの種類</li>
+<li>LinuxでのiSCSIの利用方法
+
+<ul>
+<li>iscsiadmコマンドの使い方</li>
+</ul></li>
+<li>LVM周りのコマンド</li>
+</ul>
+
+<p>そこそこエンジニアやってるのにRAIDうろ覚えなんだよなあ…。そういうところがダメ。特に1+0とか5+1とかああもうめんどうくさい！となって覚えられない。あとパリティとかそれを使ってどうやってデータを復旧させるのかぶっちゃけわかってない。</p>
+
+<p>いやあやっとわかったよ。サンキューwikipedia!具体例が書いてあるとわかりやすい。<br />
+<a href="https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%86%E3%82%A3%E3%83%93%E3%83%83%E3%83%88#%E3%83%91%E3%83%AA%E3%83%86%E3%82%A3%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF">パリティビット:パリティブロック</a></p>
+
+<p>それにしてもソフトウェアRAIDを構成することなんてある？という思いをやはり抱いてしまう。どうせコスト払うなら一番良いやつ…ってなるんじゃないかなあ。コストケチったから性能出ませんとか障害出ましたとかになったらあんまり笑えないし。今のところはハードウェアRAIDでの実装以外は見たこと無い…。意識してないだけかもしれないけど。</p>
+
+<p>iSCSI周りがいっぱい覚えることあってしんどい。使わないだろうという言い訳もあまりできなそうだしな。とはいえ、使うとなったらミドルウェア経由じゃない？という気もしないことはない。</p>
+
+<p>あまり頭使わない系の暗記物って開設を読むのを後回しにしがちだな、と思う。とはいえ、そういうのって問題を何回かやっていくうちに頭に入っていたりするんだけどね。</p>
+
+<p>LVM周りも基本的なコマンドはLpic1でやったからわかっているけどちょっと大変になってきたなあ。でもコマンドの命名規則がきちんとしているので安心。</p>
+
+<p>命名で気になったのは「削除する」の表現でremoveとdeleteとあるけど、どう使い分けているのか気になっていたのだけれどremoveは取り除く、だから設定ファイルとかは残るイメージ。deleteはファイルとか消して消滅させるイメージみたい。</p>
+
+<h1 id="ネットワーク構成">ネットワーク構成</h1>
+
+<hr />
+
+<p>知らなかったもの</p>
+
+<ul>
+<li>arpコマンド</li>
+<li>iwlistとiwconfigとiwコマンド</li>
+<li>マルチホーム接続の概要</li>
+<li>hosts.allowの書式</li>
+</ul>
+
+<p>arpコマンドについてやたら問われる気がする。そんなに使うものか？</p>
+
+<p>高度なネットワーク構成とトラブルシュートのセクションは「高度な」ってついているけれどLpic1で出てきたセクション多め。基本的な〜の方がむしろ覚えるもの多い。</p>
+
+<p>とはいえ、routeコマンドとか非推奨コマンドとipの差異を覚えるのめんどくさい。いつもこんがらがる。</p>
+
+<p>netstatの出力でudpのstateに何の記載もないのに待受状態であるとなっていたので調べたらudpはステートレスだからというなんとも当たり前なご回答。そりゃそうであると納得。早速試そうとcentos7で打ったらそもそもnetstatがないし、ssで確認したらunconn(unconnected)というわかりやすい表記に変わっていた。そりゃ何か書いてあったほうがいいよね。やっぱり非推奨コマンド覚えたくない。</p>
+
+<h1 id="ping-t-201分野なんとか一周">ping-t 201分野なんとか一周</h1>
+
+<hr />
+
+<p>さて、これからが本当の地獄だ…。というのも気分によってまともに解説を読まなかったり、ankiに情報を入力しなかったりしているので歯抜けになったりしているのだ。ああ、めんどうくさい。</p>
+
+<p>つまり2周めからは気乗りしないようなものの解説を読んで、それをまとめて…。というような作業になる。しんどい。まあ、やるしか無いのだけれど。</p>
+
+<p>非推奨だよ、とかそういう文句をもう言いたくないからさっさと終わらせて202に入っていきたいという気持ちもある。サーバのコンフィグってそんなに変わることは無いはず…。</p>
+
+<h1 id="昨日肉を食べたおかげなのかとても元気">昨日肉を食べたおかげなのかとても元気</h1>
+
+<hr />
+
+<p>久しぶりに肉を大量に食べたような気がする。赤貧洗うが如しって感じだったので。ケンタッキーさんありがとう。前行った時は完全に目がキレてる店員さんが対応していて怖かったからもう二度と行かね！って思っていたのだけど行ってよかった。</p>
+
+<p>今回も怖い人に当たると嫌だったからネットで注文して取りに行こうとしたらメンテナンス中だった。仕方無しにとりのひだから混んでいる店舗にそこそこ並んで注文した。店員さんはとてもいい人でホッとした。対応も早かったし。じゃあなんだったんだ。前に行ったときの店員さんって…。</p>
+
+<p>今日はいきなり寒くなって怖い。体調崩したくないなあ。</p>
+
+<p>突然すごく眠くなり、昼寝してしまった。30分ぐらいだけれど、前みたいに23時ぐらいに眠れるようになりたい。起き抜けでやった基本的なネットワーク構成のセクションはかなり適当。</p>
+
+        </div>
+        <div class="article-readmore"><a href="https://wadayt.github.io/study/post/2019-03-29/">Read more...</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
         <a href="https://wadayt.github.io/study/post/2019-03-28/" class="article-titles">
           <h2 class="article-title">2019 03 28</h2>
           
@@ -763,67 +894,6 @@
 
         </div>
         <div class="article-readmore"><a href="https://wadayt.github.io/study/post/2019-03-19/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <a href="https://wadayt.github.io/study/post/2019-03-18/" class="article-titles">
-          <h2 class="article-title">2019 03 18</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>March 18, 2019</time></li>
-          <li class="article-meta-categories">
-            <a href="https://wadayt.github.io/study/categories/%E5%AD%A6%E7%BF%92/">
-              <i class="fas fa-folder"></i>
-              学習
-            </a>&nbsp;
-          </li>
-          <li class="article-meta-tags">
-            <a href="https://wadayt.github.io/study/tags/lpic/">
-              <i class="fas fa-tag"></i>
-              Lpic
-            </a>&nbsp;
-          </li>
-          <li class="article-meta-tags">
-            <a href="https://wadayt.github.io/study/tags/%E8%B3%87%E6%A0%BC/">
-              <i class="fas fa-tag"></i>
-              資格
-            </a>&nbsp;
-          </li>
-        </ul>
-        <div class="article-content">
-          
-
-<h1 id="学習内容">学習内容</h1>
-
-<hr />
-
-<ul>
-<li>Lpic 5H
-　<br />
-　<br /></li>
-</ul>
-
-<h1 id="lpic102カリキュラムはつまらない">Lpic102カリキュラムはつまらない</h1>
-
-<hr />
-
-<p>Lpic101は割と実用的なところが多くて、自分が知らなかったりするところを埋められたりして嬉しかったのだけれど、102は知っているところは知っているし、知らなかったものは完全に使わないものって感じで本当につまらない。シェルスクリプトの作成経験があったりSQLの超基本的なところを理解していると楽しいところは何もない。</p>
-
-<p>スマートフォンはアンドロイドなのでLpicの試験用のアプリケーションで無料のものを使ってみたのだけれどUIが最悪で広告は入るしコンテンツは公式サイトからただ引っ張ってきたもので本当に志が低くてダメダメなやつだった。ライセンスも大丈夫なのか？と思う。恥ずかしくないのかなあ？でもライセンスが問題ないのだったらおれがUIを良い感じに作り変えてアップロードしようかな。それも良い経験になる気がするし。</p>
-
-<p>今日はもう酒を飲んでいる。もう勉強をやらなくても受かるような気がしてきた。まだスピードマスターの参考書の模擬試験をやっていないからわからないのだけれど、まあなんとかなるような気もする。というか102試験はやってて面白くないから辛いんだ。X11について詳しくなったところでちっとも嬉しくないし。ntpもchronyについてできれば良いのだけれどver 4のカリキュラムのものをやっているので学べない。</p>
-
-<p>今日一応今週の金曜日に試験を予約した。明日はスピードマスター問題集をやればいいと思うけど、明後日からはやるこないんじゃねえか？ping-tも一週間300円ぐらいのがあれば良いのに…。
-　<br />
-　</p>
-
-<hr />
-
-<p>資格試験ってあんまりおもしろくないなあ。やっぱり。でも一番お金になるのはこれなんだろうから仕方がない。実用的な資格なら楽しいのだけど、実務で使ったり、プライベートでも使ったりしているにも関わらずやった試しがないものが出てくるのはつらい。使わないことがわかっているものなんて面白くないんだもん。</p>
-
-        </div>
-        <div class="article-readmore"><a href="https://wadayt.github.io/study/post/2019-03-18/">Read more...</a></div>
         <div class="article-floatclear"></div>
       </article>
     </section>

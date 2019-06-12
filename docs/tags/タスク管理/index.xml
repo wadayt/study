@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Tue, 11 Jun 2019 07:49:45 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 07:55:09 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/tags/%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 06 12</title>
+      <link>https://wadayt.github.io/study/post/2019-06-12/</link>
+      <pubDate>Wed, 12 Jun 2019 07:55:09 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-06-12/</guid>
+      <description>Clickupはちょっと大げさな気がしてくる 導入をいったんあきらめようかな…。正直Todoistのレベルで十分な気がするな俺には…。
+個人的なタスクをただ処理したいだけなので、職場でWebサービスが使えるわけじゃないんですね…。BYODな感じで自分のiPadで運用することも考えたけれどキーボードを使えないとむかつくのでだめだ。できるはずのことができないことが一番おれのストレスになる。
+Windows Admin Centerが気になる 昨日も気にしているだけで特に何もしていなかったのだけれどとりあえずインストールしてみることにした。
+以前Powershellからログインできるように設定したこともあり、スムーズに接続できたのでうれしい。
+これって接続ユーザを埋めないのかな？それなら結構便利な気がする。踏み台サーバにこれをインストールすれば実質踏み台経由済みになるわけだしそれもいいなあ。
+思いのほかリモートデスクトップもいい感じだ。でもショートカットキーが使えないと嫌だね。
+powershellが使えればいいのかもしれないけれど、でもただオペレーションをするためだけに変に複雑なコマンドを覚える気にならないんだよな…。</description>
+    </item>
     
     <item>
       <title>2019 06 11</title>
