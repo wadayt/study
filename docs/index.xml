@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2019 Yuta Wada</copyright>
-    <lastBuildDate>Tue, 18 Jun 2019 07:56:35 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 07:57:14 +0900</lastBuildDate>
     
 	<atom:link href="https://wadayt.github.io/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 06 19</title>
+      <link>https://wadayt.github.io/study/post/2019-06-19/</link>
+      <pubDate>Wed, 19 Jun 2019 07:57:14 +0900</pubDate>
+      
+      <guid>https://wadayt.github.io/study/post/2019-06-19/</guid>
+      <description>Hugoの挙動を学ぶ Hugoでhugo newコマンドを実行して新規のページを作成するとヘッダに&amp;rdquo;draft: true&amp;rdquo;というのが作成される。
+これをおれはいままでいちいちfalseに書き換えていたのだけれど、単純に行削除で問題ないみたいだ。今気づいた。
+面倒くさいから標準でつかないように設定できないかなと思っていたのだけれど、vimならddコマンドだけで完了する話なのでもうどうでもいいや。draftの機能も使うかもしれない…。
+いや、drfat部分も特にgitignoreに入れてないから見ようと思えば見れるわけで、そう考えると微妙だ。
+もう水曜日 時間の過ぎ行くことの速さに驚いている。まあ月曜日に機能しなかったというのが一番の要因な気がする。実質火曜日ぐらいの気持ち。
+木曜日もあんまり考えないうちに終わると思う。
+それにしてもまだ自分が働いていることになれない。業務になれないというより、本当にバイト感覚でしかない。確かに生活苦から仕方なく勤め始めたという感じはあるので、腰かけ程度にしか思っていないというのはある。賃金も低いし。
+だれか雇ってくれないかなあ。と思うけれど、スキルセットがいまいちすぎてだめだろうな。Linuxサーバの構築とテストってなあ…。せめて言語のスキルがあれば…。pythonを少しぐらいしかわからん。
+そのためのAWSな気がするが、だんだんAWSの資格取得にかける情熱というのも薄くなってきた。どうしよう。
+うーん、githubで公開しているこのサイトをAWSに移管するか？それはむしろ面倒くさい。正直全く不満がないし。社会的に役立つ文章ならば金をかける意義もあるが、別に書くことそのものが目的化しているこの文章を公開するために金をかけたくないなあ。
+じゃあ、社会的に役立つことを書いていけばよいのではないですか？それもまあ、確かに。
+基本的に自分のために書いてはいるが、似たような境遇の人の支えになればいいと少しだけ思ってはいるのだけれど。
+本当に価値のあるものにするならもっと文章を練ったりしないとだめだな。社会人になってからそこそこたつのにまっとうな文章を書けないのだから仕方がない。
+文章技法の本を読んでみよう。</description>
+    </item>
     
     <item>
       <title>2019 06 18</title>
